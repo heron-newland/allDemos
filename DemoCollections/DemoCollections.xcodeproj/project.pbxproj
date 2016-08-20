@@ -10,11 +10,15 @@
 		70266CAF1D683879002163B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CAE1D683879002163B7 /* main.m */; };
 		70266CB21D683879002163B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CB11D683879002163B7 /* AppDelegate.m */; };
 		70266CB51D683879002163B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CB41D683879002163B7 /* ViewController.m */; };
-		70266CB81D683879002163B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70266CB61D683879002163B7 /* Main.storyboard */; };
 		70266CBA1D683879002163B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70266CB91D683879002163B7 /* Assets.xcassets */; };
 		70266CBD1D683879002163B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70266CBB1D683879002163B7 /* LaunchScreen.storyboard */; };
 		70266CC81D68387A002163B7 /* DemoCollectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CC71D68387A002163B7 /* DemoCollectionsTests.m */; };
 		70266CD31D68387A002163B7 /* DemoCollectionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CD21D68387A002163B7 /* DemoCollectionsUITests.m */; };
+		70266CE31D68464D002163B7 /* tables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70266CE21D68464D002163B7 /* tables.plist */; };
+		70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CE91D684E0E002163B7 /* UIColor+HLRandomColor.m */; };
+		70266CF11D68504C002163B7 /* HLRedaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CF01D68504C002163B7 /* HLRedaController.m */; };
+		70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */; };
+		B995124BF8520564E162ADC5 /* libPods-DemoCollections.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54094EC404360C4182D743A2 /* libPods-DemoCollections.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54094EC404360C4182D743A2 /* libPods-DemoCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCollections.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70266CAA1D683879002163B7 /* DemoCollections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70266CAE1D683879002163B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70266CB01D683879002163B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70266CB11D683879002163B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		70266CB31D683879002163B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		70266CB41D683879002163B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		70266CB71D683879002163B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70266CB91D683879002163B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70266CBC1D683879002163B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70266CBE1D683879002163B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,16 @@
 		70266CCE1D68387A002163B7 /* DemoCollectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCollectionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70266CD21D68387A002163B7 /* DemoCollectionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionsUITests.m; sourceTree = "<group>"; };
 		70266CD41D68387A002163B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70266CE11D684349002163B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		70266CE21D68464D002163B7 /* tables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tables.plist; sourceTree = "<group>"; };
+		70266CE81D684E0E002163B7 /* UIColor+HLRandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HLRandomColor.h"; sourceTree = "<group>"; };
+		70266CE91D684E0E002163B7 /* UIColor+HLRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLRandomColor.m"; sourceTree = "<group>"; };
+		70266CEF1D68504C002163B7 /* HLRedaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRedaController.h; sourceTree = "<group>"; };
+		70266CF01D68504C002163B7 /* HLRedaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRedaController.m; sourceTree = "<group>"; };
+		70E4D6C71D6897ED00A1C9BB /* UIView+HLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLFrame.h"; sourceTree = "<group>"; };
+		70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLFrame.m"; sourceTree = "<group>"; };
+		71CEA1E3343DB2E6DF3C35CD /* Pods-DemoCollections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections.debug.xcconfig"; sourceTree = "<group>"; };
+		A5981421CC0D4FF51628E936 /* Pods-DemoCollections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollections.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B995124BF8520564E162ADC5 /* libPods-DemoCollections.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		088221E9CA7AC2FBAE94DD3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54094EC404360C4182D743A2 /* libPods-DemoCollections.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B9416C32929693E5FCDEB8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71CEA1E3343DB2E6DF3C35CD /* Pods-DemoCollections.debug.xcconfig */,
+				A5981421CC0D4FF51628E936 /* Pods-DemoCollections.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		70266CA11D683879002163B7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,8 @@
 				70266CC61D68387A002163B7 /* DemoCollectionsTests */,
 				70266CD11D68387A002163B7 /* DemoCollectionsUITests */,
 				70266CAB1D683879002163B7 /* Products */,
+				6B9416C32929693E5FCDEB8E /* Pods */,
+				088221E9CA7AC2FBAE94DD3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +135,9 @@
 		70266CAC1D683879002163B7 /* DemoCollections */ = {
 			isa = PBXGroup;
 			children = (
-				70266CB01D683879002163B7 /* AppDelegate.h */,
-				70266CB11D683879002163B7 /* AppDelegate.m */,
-				70266CB31D683879002163B7 /* ViewController.h */,
-				70266CB41D683879002163B7 /* ViewController.m */,
-				70266CB61D683879002163B7 /* Main.storyboard */,
+				70266CEB1D684FE7002163B7 /* Effects */,
+				70266CE71D684DD7002163B7 /* tools */,
+				70266CE01D684051002163B7 /* MainFrame */,
 				70266CB91D683879002163B7 /* Assets.xcassets */,
 				70266CBB1D683879002163B7 /* LaunchScreen.storyboard */,
 				70266CBE1D683879002163B7 /* Info.plist */,
@@ -118,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				70266CAE1D683879002163B7 /* main.m */,
+				70266CE21D68464D002163B7 /* tables.plist */,
+				70266CE11D684349002163B7 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +174,45 @@
 			path = DemoCollectionsUITests;
 			sourceTree = "<group>";
 		};
+		70266CE01D684051002163B7 /* MainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				70266CB01D683879002163B7 /* AppDelegate.h */,
+				70266CB11D683879002163B7 /* AppDelegate.m */,
+				70266CB31D683879002163B7 /* ViewController.h */,
+				70266CB41D683879002163B7 /* ViewController.m */,
+			);
+			name = MainFrame;
+			sourceTree = "<group>";
+		};
+		70266CE71D684DD7002163B7 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				70266CE81D684E0E002163B7 /* UIColor+HLRandomColor.h */,
+				70266CE91D684E0E002163B7 /* UIColor+HLRandomColor.m */,
+				70E4D6C71D6897ED00A1C9BB /* UIView+HLFrame.h */,
+				70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+		70266CEB1D684FE7002163B7 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				70266CF21D68529C002163B7 /* RedaAnimation */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+		70266CF21D68529C002163B7 /* RedaAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				70266CEF1D68504C002163B7 /* HLRedaController.h */,
+				70266CF01D68504C002163B7 /* HLRedaController.m */,
+			);
+			name = RedaAnimation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70266CD71D68387A002163B7 /* Build configuration list for PBXNativeTarget "DemoCollections" */;
 			buildPhases = (
+				39CCD20027FD1A19C36EDDA6 /* [CP] Check Pods Manifest.lock */,
 				70266CA61D683879002163B7 /* Sources */,
 				70266CA71D683879002163B7 /* Frameworks */,
 				70266CA81D683879002163B7 /* Resources */,
+				E32DE7DBBF1D08A1DC08856C /* [CP] Embed Pods Frameworks */,
+				1C901DAE2840A165F8BD954F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +278,7 @@
 		70266CA21D683879002163B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HL;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = helong;
 				TargetAttributes = {
@@ -247,8 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70266CBD1D683879002163B7 /* LaunchScreen.storyboard in Resources */,
+				70266CE31D68464D002163B7 /* tables.plist in Resources */,
 				70266CBA1D683879002163B7 /* Assets.xcassets in Resources */,
-				70266CB81D683879002163B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +345,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C901DAE2840A165F8BD954F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39CCD20027FD1A19C36EDDA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E32DE7DBBF1D08A1DC08856C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70266CA61D683879002163B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70266CF11D68504C002163B7 /* HLRedaController.m in Sources */,
 				70266CB51D683879002163B7 /* ViewController.m in Sources */,
 				70266CB21D683879002163B7 /* AppDelegate.m in Sources */,
+				70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */,
+				70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */,
 				70266CAF1D683879002163B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +439,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		70266CB61D683879002163B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70266CB71D683879002163B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		70266CBB1D683879002163B7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,8 +536,10 @@
 		};
 		70266CD81D68387A002163B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CEA1E3343DB2E6DF3C35CD /* Pods-DemoCollections.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/helong/Documents/allDemos/DemoCollections/DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.helong.DemoCollections;
@@ -427,8 +549,10 @@
 		};
 		70266CD91D68387A002163B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5981421CC0D4FF51628E936 /* Pods-DemoCollections.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/helong/Documents/allDemos/DemoCollections/DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.helong.DemoCollections;
@@ -501,6 +625,7 @@
 				70266CD91D68387A002163B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70266CDA1D68387A002163B7 /* Build configuration list for PBXNativeTarget "DemoCollectionsTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +634,7 @@
 				70266CDC1D68387A002163B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70266CDD1D68387A002163B7 /* Build configuration list for PBXNativeTarget "DemoCollectionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +643,7 @@
 				70266CDF1D68387A002163B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
