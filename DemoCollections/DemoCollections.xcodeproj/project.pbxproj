@@ -17,6 +17,8 @@
 		70266CE31D68464D002163B7 /* tables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70266CE21D68464D002163B7 /* tables.plist */; };
 		70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CE91D684E0E002163B7 /* UIColor+HLRandomColor.m */; };
 		70266CF11D68504C002163B7 /* HLRedaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CF01D68504C002163B7 /* HLRedaController.m */; };
+		70B2F3351D6DCD41004325AB /* HLGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2F3341D6DCD41004325AB /* HLGestureViewController.m */; };
+		70B2F3381D6DCD87004325AB /* HLGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2F3371D6DCD87004325AB /* HLGestureView.m */; };
 		70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */; };
 		B995124BF8520564E162ADC5 /* libPods-DemoCollections.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54094EC404360C4182D743A2 /* libPods-DemoCollections.a */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,10 @@
 		70266CE91D684E0E002163B7 /* UIColor+HLRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLRandomColor.m"; sourceTree = "<group>"; };
 		70266CEF1D68504C002163B7 /* HLRedaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRedaController.h; sourceTree = "<group>"; };
 		70266CF01D68504C002163B7 /* HLRedaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRedaController.m; sourceTree = "<group>"; };
+		70B2F3331D6DCD41004325AB /* HLGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGestureViewController.h; sourceTree = "<group>"; };
+		70B2F3341D6DCD41004325AB /* HLGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGestureViewController.m; sourceTree = "<group>"; };
+		70B2F3361D6DCD87004325AB /* HLGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGestureView.h; sourceTree = "<group>"; };
+		70B2F3371D6DCD87004325AB /* HLGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGestureView.m; sourceTree = "<group>"; };
 		70E4D6C71D6897ED00A1C9BB /* UIView+HLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLFrame.h"; sourceTree = "<group>"; };
 		70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLFrame.m"; sourceTree = "<group>"; };
 		71CEA1E3343DB2E6DF3C35CD /* Pods-DemoCollections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,6 +205,7 @@
 		70266CEB1D684FE7002163B7 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				70B2F3321D6DCD13004325AB /* GesturePassword */,
 				70266CF21D68529C002163B7 /* RedaAnimation */,
 			);
 			name = Effects;
@@ -211,6 +218,17 @@
 				70266CF01D68504C002163B7 /* HLRedaController.m */,
 			);
 			name = RedaAnimation;
+			sourceTree = "<group>";
+		};
+		70B2F3321D6DCD13004325AB /* GesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				70B2F3331D6DCD41004325AB /* HLGestureViewController.h */,
+				70B2F3341D6DCD41004325AB /* HLGestureViewController.m */,
+				70B2F3361D6DCD87004325AB /* HLGestureView.h */,
+				70B2F3371D6DCD87004325AB /* HLGestureView.m */,
+			);
+			name = GesturePassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,8 +416,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B2F3381D6DCD87004325AB /* HLGestureView.m in Sources */,
 				70266CF11D68504C002163B7 /* HLRedaController.m in Sources */,
 				70266CB51D683879002163B7 /* ViewController.m in Sources */,
+				70B2F3351D6DCD41004325AB /* HLGestureViewController.m in Sources */,
 				70266CB21D683879002163B7 /* AppDelegate.m in Sources */,
 				70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */,
 				70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */,

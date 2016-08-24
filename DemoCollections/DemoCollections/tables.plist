@@ -8,5 +8,11 @@
 		<key>targetVC</key>
 		<string>HLRedaController</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>手势密码</string>
+		<key>targetVC</key>
+		<string>HLGestureViewController</string>
+	</dict>
 </array>
 </plist>

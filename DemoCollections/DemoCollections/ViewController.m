@@ -61,11 +61,12 @@
  *  在里面设置跳转的目标控制器
  */
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    //  根据plist文件的字符串转化成类
     NSString *controllerString = self.tableModelArray[indexPath.row][@"targetVC"];
     Class class = NSClassFromString(controllerString);
     UIViewController *targetVC = [[class alloc] init];
-    
+    //  设置目标控制器的标题
+    targetVC.navigationItem.title = self.tableModelArray[indexPath.row][@"title"];
     [self.navigationController pushViewController:targetVC animated:YES];
     
 }
