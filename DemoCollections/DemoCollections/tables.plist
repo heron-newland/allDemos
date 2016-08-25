@@ -7,12 +7,16 @@
 		<string>雷达动画</string>
 		<key>targetVC</key>
 		<string>HLRedaController</string>
+		<key>detailInfos</key>
+		<string>reda.html</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>手势密码</string>
 		<key>targetVC</key>
 		<string>HLGestureViewController</string>
+		<key>detailInfos</key>
+		<string>gesturePassword.html</string>
 	</dict>
 </array>
 </plist>

@@ -8,7 +8,7 @@
 
 #import "HLGestureViewController.h"
 #import "HLGestureView.h"
-
+#import "HLDetailViewController.h"
 @interface HLGestureViewController ()
 
 @end
@@ -22,7 +22,7 @@
     [self configureUI];
     
      self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"HomeButtomBG"]];
-
+  
 }
 - (void)configureUI{
     HLGestureView *gesture = [[HLGestureView alloc] init];
@@ -39,6 +39,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
