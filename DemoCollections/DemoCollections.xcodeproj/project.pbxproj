@@ -17,6 +17,8 @@
 		70266CE31D68464D002163B7 /* tables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70266CE21D68464D002163B7 /* tables.plist */; };
 		70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CE91D684E0E002163B7 /* UIColor+HLRandomColor.m */; };
 		70266CF11D68504C002163B7 /* HLRedaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CF01D68504C002163B7 /* HLRedaController.m */; };
+		70348EA01D71800300D3C3C5 /* HLEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70348E9F1D71800300D3C3C5 /* HLEyeViewController.m */; };
+		70348EA31D7184DC00D3C3C5 /* HLEyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70348EA21D7184DC00D3C3C5 /* HLEyeView.m */; };
 		707D83741D6EC52000488B86 /* HLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707D83731D6EC52000488B86 /* HLDetailViewController.m */; };
 		707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 707D83791D6ECC3700488B86 /* HLMainModel.m */; };
 		707FF6751D6ED55D000C4D1A /* reda.html in Resources */ = {isa = PBXBuildFile; fileRef = 707FF6741D6ED55D000C4D1A /* reda.html */; };
@@ -67,6 +69,10 @@
 		70266CE91D684E0E002163B7 /* UIColor+HLRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLRandomColor.m"; sourceTree = "<group>"; };
 		70266CEF1D68504C002163B7 /* HLRedaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRedaController.h; sourceTree = "<group>"; };
 		70266CF01D68504C002163B7 /* HLRedaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRedaController.m; sourceTree = "<group>"; };
+		70348E9E1D71800300D3C3C5 /* HLEyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLEyeViewController.h; sourceTree = "<group>"; };
+		70348E9F1D71800300D3C3C5 /* HLEyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLEyeViewController.m; sourceTree = "<group>"; };
+		70348EA11D7184DC00D3C3C5 /* HLEyeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLEyeView.h; sourceTree = "<group>"; };
+		70348EA21D7184DC00D3C3C5 /* HLEyeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLEyeView.m; sourceTree = "<group>"; };
 		707D83721D6EC52000488B86 /* HLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDetailViewController.h; sourceTree = "<group>"; };
 		707D83731D6EC52000488B86 /* HLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDetailViewController.m; sourceTree = "<group>"; };
 		707D83781D6ECC3700488B86 /* HLMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMainModel.h; sourceTree = "<group>"; };
@@ -220,6 +226,7 @@
 		70266CEB1D684FE7002163B7 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				70348E9D1D717FCF00D3C3C5 /* DrawEyeAnimation */,
 				70B2F3321D6DCD13004325AB /* GesturePassword */,
 				70266CF21D68529C002163B7 /* RedaAnimation */,
 			);
@@ -233,6 +240,17 @@
 				70266CF01D68504C002163B7 /* HLRedaController.m */,
 			);
 			name = RedaAnimation;
+			sourceTree = "<group>";
+		};
+		70348E9D1D717FCF00D3C3C5 /* DrawEyeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				70348E9E1D71800300D3C3C5 /* HLEyeViewController.h */,
+				70348E9F1D71800300D3C3C5 /* HLEyeViewController.m */,
+				70348EA11D7184DC00D3C3C5 /* HLEyeView.h */,
+				70348EA21D7184DC00D3C3C5 /* HLEyeView.m */,
+			);
+			name = DrawEyeAnimation;
 			sourceTree = "<group>";
 		};
 		707D83771D6ECC1C00488B86 /* Models */ = {
@@ -448,7 +466,9 @@
 				70B2F3351D6DCD41004325AB /* HLGestureViewController.m in Sources */,
 				707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */,
 				70266CB21D683879002163B7 /* AppDelegate.m in Sources */,
+				70348EA01D71800300D3C3C5 /* HLEyeViewController.m in Sources */,
 				707D83741D6EC52000488B86 /* HLDetailViewController.m in Sources */,
+				70348EA31D7184DC00D3C3C5 /* HLEyeView.m in Sources */,
 				70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */,
 				70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */,
 				70266CAF1D683879002163B7 /* main.m in Sources */,
