@@ -25,8 +25,8 @@
     //  没有此句webview会有黑条
     web.opaque = NO;
     web.backgroundColor = [UIColor whiteColor];
-    
-    
+    //  加载本地html
+    if ([self.detailInfos hasSuffix:@"html"]) {
     // 使用webView加载本地html的方法
     //  找到资源路径
     NSString *path = [[NSBundle mainBundle] pathForResource:self.detailInfos ofType:nil];
@@ -35,9 +35,16 @@
     //  获取baseURL
     NSString *basePath = [[NSBundle mainBundle] bundlePath];
     NSURL *baseURL = [NSURL fileURLWithPath:basePath];
+    
+    NSLog(@"%@",baseURL);
     //  加载html字符串
     [web loadHTMLString:htmlString baseURL:baseURL];
-    
+        
+    }else {
+        //  直接加载网页
+        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.detailInfos]];
+        [web loadRequest: request];
+    }
 
 }
 

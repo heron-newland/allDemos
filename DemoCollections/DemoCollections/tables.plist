@@ -26,5 +26,13 @@
 		<key>detailInfos</key>
 		<string>gesturePassword.html</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>数据库</string>
+		<key>targetVC</key>
+		<string>HLDataViewController</string>
+		<key>detailInfos</key>
+		<string>http://www.jianshu.com/p/af6994627a40</string>
+	</dict>
 </array>
 </plist>

@@ -15,4 +15,6 @@
 #import "UIColor+HLRandomColor.h"
 #import "HLRedaController.h"
 #import "UIView+HLFrame.h"
+#import "HLDataBaseTool.h"
+#import <FMDB.h>
 #endif /* PrefixHeader_pch */
