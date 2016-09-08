@@ -34,5 +34,13 @@
 		<key>detailInfos</key>
 		<string>http://www.jianshu.com/p/af6994627a40</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>动态创建列的tableView</string>
+		<key>targetVC</key>
+		<string>HLCollectionTableViewController</string>
+		<key>detailInfos</key>
+		<string>http://www.jianshu.com/p/af6994627a40</string>
+	</dict>
 </array>
 </plist>

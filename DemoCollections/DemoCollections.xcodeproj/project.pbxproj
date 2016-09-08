@@ -28,6 +28,10 @@
 		707FF6771D6ED9D0000C4D1A /* gesturePassword.html in Resources */ = {isa = PBXBuildFile; fileRef = 707FF6761D6ED9D0000C4D1A /* gesturePassword.html */; };
 		70B2F3351D6DCD41004325AB /* HLGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2F3341D6DCD41004325AB /* HLGestureViewController.m */; };
 		70B2F3381D6DCD87004325AB /* HLGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2F3371D6DCD87004325AB /* HLGestureView.m */; };
+		70D74A801D818251007A94D6 /* HLCollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D74A7F1D818251007A94D6 /* HLCollectionTableViewController.m */; };
+		70D74A831D81884C007A94D6 /* HLDynamicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D74A821D81884C007A94D6 /* HLDynamicCollectionViewCell.m */; };
+		70D74A861D818F0D007A94D6 /* HLDynamicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D74A851D818F0D007A94D6 /* HLDynamicTableViewCell.m */; };
+		70D74A881D81A012007A94D6 /* HLdycell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70D74A871D81A012007A94D6 /* HLdycell.xib */; };
 		70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */; };
 		B995124BF8520564E162ADC5 /* libPods-DemoCollections.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54094EC404360C4182D743A2 /* libPods-DemoCollections.a */; };
 /* End PBXBuildFile section */
@@ -92,6 +96,13 @@
 		70B2F3341D6DCD41004325AB /* HLGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGestureViewController.m; sourceTree = "<group>"; };
 		70B2F3361D6DCD87004325AB /* HLGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGestureView.h; sourceTree = "<group>"; };
 		70B2F3371D6DCD87004325AB /* HLGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGestureView.m; sourceTree = "<group>"; };
+		70D74A7E1D818251007A94D6 /* HLCollectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCollectionTableViewController.h; sourceTree = "<group>"; };
+		70D74A7F1D818251007A94D6 /* HLCollectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCollectionTableViewController.m; sourceTree = "<group>"; };
+		70D74A811D81884C007A94D6 /* HLDynamicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDynamicCollectionViewCell.h; sourceTree = "<group>"; };
+		70D74A821D81884C007A94D6 /* HLDynamicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDynamicCollectionViewCell.m; sourceTree = "<group>"; };
+		70D74A841D818F0D007A94D6 /* HLDynamicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDynamicTableViewCell.h; sourceTree = "<group>"; };
+		70D74A851D818F0D007A94D6 /* HLDynamicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDynamicTableViewCell.m; sourceTree = "<group>"; };
+		70D74A871D81A012007A94D6 /* HLdycell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLdycell.xib; sourceTree = "<group>"; };
 		70E4D6C71D6897ED00A1C9BB /* UIView+HLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLFrame.h"; sourceTree = "<group>"; };
 		70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLFrame.m"; sourceTree = "<group>"; };
 		71CEA1E3343DB2E6DF3C35CD /* Pods-DemoCollections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,6 +246,7 @@
 		70266CEB1D684FE7002163B7 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				70D74A791D8181D2007A94D6 /* DynamicTableColumn */,
 				70348EA41D7276B200D3C3C5 /* DataBase */,
 				70348E9D1D717FCF00D3C3C5 /* DrawEyeAnimation */,
 				70B2F3321D6DCD13004325AB /* GesturePassword */,
@@ -310,6 +322,44 @@
 				70B2F3371D6DCD87004325AB /* HLGestureView.m */,
 			);
 			name = GesturePassword;
+			sourceTree = "<group>";
+		};
+		70D74A791D8181D2007A94D6 /* DynamicTableColumn */ = {
+			isa = PBXGroup;
+			children = (
+				70D74A7D1D81820B007A94D6 /* Views */,
+				70D74A7C1D818204007A94D6 /* Controller */,
+				70D74A7A1D8181F8007A94D6 /* Models */,
+			);
+			name = DynamicTableColumn;
+			sourceTree = "<group>";
+		};
+		70D74A7A1D8181F8007A94D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		70D74A7C1D818204007A94D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70D74A7E1D818251007A94D6 /* HLCollectionTableViewController.h */,
+				70D74A7F1D818251007A94D6 /* HLCollectionTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		70D74A7D1D81820B007A94D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70D74A811D81884C007A94D6 /* HLDynamicCollectionViewCell.h */,
+				70D74A821D81884C007A94D6 /* HLDynamicCollectionViewCell.m */,
+				70D74A841D818F0D007A94D6 /* HLDynamicTableViewCell.h */,
+				70D74A851D818F0D007A94D6 /* HLDynamicTableViewCell.m */,
+				70D74A871D81A012007A94D6 /* HLdycell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,6 +476,7 @@
 				70266CBD1D683879002163B7 /* LaunchScreen.storyboard in Resources */,
 				70266CE31D68464D002163B7 /* tables.plist in Resources */,
 				707FF6771D6ED9D0000C4D1A /* gesturePassword.html in Resources */,
+				70D74A881D81A012007A94D6 /* HLdycell.xib in Resources */,
 				70266CBA1D683879002163B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,14 +551,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				70B2F3381D6DCD87004325AB /* HLGestureView.m in Sources */,
+				70D74A831D81884C007A94D6 /* HLDynamicCollectionViewCell.m in Sources */,
 				70266CF11D68504C002163B7 /* HLRedaController.m in Sources */,
 				70266CB51D683879002163B7 /* ViewController.m in Sources */,
 				70B2F3351D6DCD41004325AB /* HLGestureViewController.m in Sources */,
+				70D74A861D818F0D007A94D6 /* HLDynamicTableViewCell.m in Sources */,
 				707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */,
 				70266CB21D683879002163B7 /* AppDelegate.m in Sources */,
 				70348EA01D71800300D3C3C5 /* HLEyeViewController.m in Sources */,
 				707D83741D6EC52000488B86 /* HLDetailViewController.m in Sources */,
 				70348EAB1D72773700D3C3C5 /* HLDataBaseTool.m in Sources */,
+				70D74A801D818251007A94D6 /* HLCollectionTableViewController.m in Sources */,
 				70348EA31D7184DC00D3C3C5 /* HLEyeView.m in Sources */,
 				70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */,
 				70348EAF1D72775700D3C3C5 /* HLStudentModel.m in Sources */,
