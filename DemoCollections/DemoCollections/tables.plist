@@ -42,5 +42,45 @@
 		<key>detailInfos</key>
 		<string>http://www.jianshu.com/p/af6994627a40</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>自定义各种label</string>
+		<key>targetVC</key>
+		<string>HLCustomLabelViewController</string>
+		<key>detailInfos</key>
+		<string>http://www.jianshu.com/p/99f31c05969c</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>通讯录和搜索</string>
+		<key>targetVC</key>
+		<string>HLAddressBookViewController</string>
+		<key>detailInfos</key>
+		<string>http://www.jianshu.com/p/99f31c05969c</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>tableView的先关操作</string>
+		<key>targetVC</key>
+		<string>HLEditingTableViewController</string>
+		<key>detailInfos</key>
+		<string>http://www.jianshu.com/p/99f31c05969c</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>绘图</string>
+		<key>targetVC</key>
+		<string>HLHLDrawController</string>
+		<key>detailInfos</key>
+		<string>http://blog.csdn.net/u013346305/article/details/50896308</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>window有关的操作</string>
+		<key>targetVC</key>
+		<string>HLWindowViewController</string>
+		<key>detailInfos</key>
+		<string>window.html</string>
+	</dict>
 </array>
 </plist>

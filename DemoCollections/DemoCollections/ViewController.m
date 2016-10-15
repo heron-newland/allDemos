@@ -33,11 +33,12 @@
  */
 - (void)configureUI {
     //  左边的tableView
-    self.leftTable = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+    self.leftTable = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
     self.leftTable.delegate = self;
     self.leftTable.dataSource = self;
     self.leftTable.backgroundColor = [UIColor greenColor];
     [self.view addSubview:self.leftTable];
+    
     //  设置约束
     [self.leftTable mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(self.view);

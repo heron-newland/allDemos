@@ -24,6 +24,9 @@ static NSString *reusableCell = @"reusableCell";
     self.titleArray = @[@[@"1111",@"2222"],@[@"3333"],@[@"4444",@"5555",@"6666"]];
     self.perArray = @[@[@0.3,@0.7],@[@1.0],@[@0.2,@0.3,@0.5]];
     [self configureUI];
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+
 }
 
 - (void)configureUI {

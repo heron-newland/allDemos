@@ -117,8 +117,12 @@
     
     //判断密码是否正确
     if ([passWordArray isEqualToString:passWordString]) {//密码正确
-        
+        self.lineColor = [UIColor greenColor];
+        [self setNeedsDisplay];
+        //  延迟后恢复
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self clear];
+        });
         
     }else{//密码不正确
         

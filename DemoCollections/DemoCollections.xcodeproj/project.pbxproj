@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70058DF51D993D6E00E10E45 /* HLCustomLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70058DF41D993D6E00E10E45 /* HLCustomLabelViewController.m */; };
+		70058DFA1D993E1000E10E45 /* HLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70058DF91D993E1000E10E45 /* HLLabel.m */; };
+		702229981DB1ACFA000BD135 /* HLHLDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702229971DB1ACFA000BD135 /* HLHLDrawController.m */; };
+		7022299E1DB1AD4F000BD135 /* HLDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022299D1DB1AD4F000BD135 /* HLDrawTextView.m */; };
+		702229A21DB1B581000BD135 /* HLWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702229A11DB1B581000BD135 /* HLWindowViewController.m */; };
+		702229A41DB1BD28000BD135 /* window.html in Resources */ = {isa = PBXBuildFile; fileRef = 702229A31DB1BD28000BD135 /* window.html */; };
 		70266CAF1D683879002163B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CAE1D683879002163B7 /* main.m */; };
 		70266CB21D683879002163B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CB11D683879002163B7 /* AppDelegate.m */; };
 		70266CB51D683879002163B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CB41D683879002163B7 /* ViewController.m */; };
@@ -22,6 +28,7 @@
 		70348EA71D7276DB00D3C3C5 /* HLDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70348EA61D7276DB00D3C3C5 /* HLDataViewController.m */; };
 		70348EAB1D72773700D3C3C5 /* HLDataBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70348EAA1D72773700D3C3C5 /* HLDataBaseTool.m */; };
 		70348EAF1D72775700D3C3C5 /* HLStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70348EAE1D72775700D3C3C5 /* HLStudentModel.m */; };
+		706B49591DAD251500B57965 /* HLEditingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706B49581DAD251500B57965 /* HLEditingTableViewController.m */; };
 		707D83741D6EC52000488B86 /* HLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707D83731D6EC52000488B86 /* HLDetailViewController.m */; };
 		707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 707D83791D6ECC3700488B86 /* HLMainModel.m */; };
 		707FF6751D6ED55D000C4D1A /* reda.html in Resources */ = {isa = PBXBuildFile; fileRef = 707FF6741D6ED55D000C4D1A /* reda.html */; };
@@ -33,6 +40,10 @@
 		70D74A861D818F0D007A94D6 /* HLDynamicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D74A851D818F0D007A94D6 /* HLDynamicTableViewCell.m */; };
 		70D74A881D81A012007A94D6 /* HLdycell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70D74A871D81A012007A94D6 /* HLdycell.xib */; };
 		70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */; };
+		70FDF0881D9AA9E40044F291 /* HLAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FDF0871D9AA9E40044F291 /* HLAddressBookViewController.m */; };
+		70FDF08A1D9AA9F30044F291 /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70FDF0891D9AA9F30044F291 /* cars_total.plist */; };
+		70FDF08F1D9AAA030044F291 /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FDF08D1D9AAA030044F291 /* CarModel.m */; };
+		70FDF0901D9AAA030044F291 /* CarSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FDF08E1D9AAA030044F291 /* CarSectionModel.m */; };
 		B995124BF8520564E162ADC5 /* libPods-DemoCollections.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54094EC404360C4182D743A2 /* libPods-DemoCollections.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +66,17 @@
 
 /* Begin PBXFileReference section */
 		54094EC404360C4182D743A2 /* libPods-DemoCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCollections.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70058DF31D993D6E00E10E45 /* HLCustomLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCustomLabelViewController.h; sourceTree = "<group>"; };
+		70058DF41D993D6E00E10E45 /* HLCustomLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCustomLabelViewController.m; sourceTree = "<group>"; };
+		70058DF81D993E1000E10E45 /* HLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLabel.h; sourceTree = "<group>"; };
+		70058DF91D993E1000E10E45 /* HLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLabel.m; sourceTree = "<group>"; };
+		702229961DB1ACFA000BD135 /* HLHLDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHLDrawController.h; sourceTree = "<group>"; };
+		702229971DB1ACFA000BD135 /* HLHLDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHLDrawController.m; sourceTree = "<group>"; };
+		7022299C1DB1AD4F000BD135 /* HLDrawTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDrawTextView.h; sourceTree = "<group>"; };
+		7022299D1DB1AD4F000BD135 /* HLDrawTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDrawTextView.m; sourceTree = "<group>"; };
+		702229A01DB1B581000BD135 /* HLWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLWindowViewController.h; sourceTree = "<group>"; };
+		702229A11DB1B581000BD135 /* HLWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLWindowViewController.m; sourceTree = "<group>"; };
+		702229A31DB1BD28000BD135 /* window.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = window.html; sourceTree = "<group>"; };
 		70266CAA1D683879002163B7 /* DemoCollections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70266CAE1D683879002163B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70266CB01D683879002163B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +108,8 @@
 		70348EAA1D72773700D3C3C5 /* HLDataBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDataBaseTool.m; sourceTree = "<group>"; };
 		70348EAD1D72775700D3C3C5 /* HLStudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLStudentModel.h; sourceTree = "<group>"; };
 		70348EAE1D72775700D3C3C5 /* HLStudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLStudentModel.m; sourceTree = "<group>"; };
+		706B49571DAD251500B57965 /* HLEditingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLEditingTableViewController.h; sourceTree = "<group>"; };
+		706B49581DAD251500B57965 /* HLEditingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLEditingTableViewController.m; sourceTree = "<group>"; };
 		707D83721D6EC52000488B86 /* HLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDetailViewController.h; sourceTree = "<group>"; };
 		707D83731D6EC52000488B86 /* HLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDetailViewController.m; sourceTree = "<group>"; };
 		707D83781D6ECC3700488B86 /* HLMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMainModel.h; sourceTree = "<group>"; };
@@ -105,6 +129,13 @@
 		70D74A871D81A012007A94D6 /* HLdycell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLdycell.xib; sourceTree = "<group>"; };
 		70E4D6C71D6897ED00A1C9BB /* UIView+HLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLFrame.h"; sourceTree = "<group>"; };
 		70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLFrame.m"; sourceTree = "<group>"; };
+		70FDF0861D9AA9E40044F291 /* HLAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAddressBookViewController.h; sourceTree = "<group>"; };
+		70FDF0871D9AA9E40044F291 /* HLAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAddressBookViewController.m; sourceTree = "<group>"; };
+		70FDF0891D9AA9F30044F291 /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		70FDF08B1D9AAA030044F291 /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		70FDF08C1D9AAA030044F291 /* CarSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarSectionModel.h; sourceTree = "<group>"; };
+		70FDF08D1D9AAA030044F291 /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		70FDF08E1D9AAA030044F291 /* CarSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarSectionModel.m; sourceTree = "<group>"; };
 		71CEA1E3343DB2E6DF3C35CD /* Pods-DemoCollections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections.debug.xcconfig"; sourceTree = "<group>"; };
 		A5981421CC0D4FF51628E936 /* Pods-DemoCollections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollections.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +183,61 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		70058DF61D993D8C00E10E45 /* CustomLabels */ = {
+			isa = PBXGroup;
+			children = (
+				70058DF31D993D6E00E10E45 /* HLCustomLabelViewController.h */,
+				70058DF41D993D6E00E10E45 /* HLCustomLabelViewController.m */,
+				70058DF81D993E1000E10E45 /* HLLabel.h */,
+				70058DF91D993E1000E10E45 /* HLLabel.m */,
+			);
+			name = CustomLabels;
+			sourceTree = "<group>";
+		};
+		702229921DB1AC49000BD135 /* DrawRect */ = {
+			isa = PBXGroup;
+			children = (
+				7022299B1DB1AD25000BD135 /* Model */,
+				7022299A1DB1AD1C000BD135 /* Controller */,
+				702229991DB1AD12000BD135 /* View */,
+			);
+			name = DrawRect;
+			sourceTree = "<group>";
+		};
+		702229991DB1AD12000BD135 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7022299C1DB1AD4F000BD135 /* HLDrawTextView.h */,
+				7022299D1DB1AD4F000BD135 /* HLDrawTextView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7022299A1DB1AD1C000BD135 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				702229961DB1ACFA000BD135 /* HLHLDrawController.h */,
+				702229971DB1ACFA000BD135 /* HLHLDrawController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7022299B1DB1AD25000BD135 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7022299F1DB1B560000BD135 /* WindowOperation */ = {
+			isa = PBXGroup;
+			children = (
+				702229A01DB1B581000BD135 /* HLWindowViewController.h */,
+				702229A11DB1B581000BD135 /* HLWindowViewController.m */,
+			);
+			name = WindowOperation;
+			sourceTree = "<group>";
+		};
 		70266CA11D683879002163B7 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				707FF6741D6ED55D000C4D1A /* reda.html */,
+				702229A31DB1BD28000BD135 /* window.html */,
 				707FF6761D6ED9D0000C4D1A /* gesturePassword.html */,
 				70266CAE1D683879002163B7 /* main.m */,
 				70266CE21D68464D002163B7 /* tables.plist */,
@@ -246,11 +333,16 @@
 		70266CEB1D684FE7002163B7 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				7022299F1DB1B560000BD135 /* WindowOperation */,
+				702229921DB1AC49000BD135 /* DrawRect */,
+				706B49561DAD24EB00B57965 /* TableViewAll */,
+				70FDF0851D9AA9A20044F291 /* AddressBook */,
 				70D74A791D8181D2007A94D6 /* DynamicTableColumn */,
 				70348EA41D7276B200D3C3C5 /* DataBase */,
 				70348E9D1D717FCF00D3C3C5 /* DrawEyeAnimation */,
 				70B2F3321D6DCD13004325AB /* GesturePassword */,
 				70266CF21D68529C002163B7 /* RedaAnimation */,
+				70058DF61D993D8C00E10E45 /* CustomLabels */,
 			);
 			name = Effects;
 			sourceTree = "<group>";
@@ -302,6 +394,15 @@
 				70348EAE1D72775700D3C3C5 /* HLStudentModel.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		706B49561DAD24EB00B57965 /* TableViewAll */ = {
+			isa = PBXGroup;
+			children = (
+				706B49571DAD251500B57965 /* HLEditingTableViewController.h */,
+				706B49581DAD251500B57965 /* HLEditingTableViewController.m */,
+			);
+			name = TableViewAll;
 			sourceTree = "<group>";
 		};
 		707D83771D6ECC1C00488B86 /* Models */ = {
@@ -360,6 +461,20 @@
 				70D74A871D81A012007A94D6 /* HLdycell.xib */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		70FDF0851D9AA9A20044F291 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				70FDF0891D9AA9F30044F291 /* cars_total.plist */,
+				70FDF0861D9AA9E40044F291 /* HLAddressBookViewController.h */,
+				70FDF0871D9AA9E40044F291 /* HLAddressBookViewController.m */,
+				70FDF08B1D9AAA030044F291 /* CarModel.h */,
+				70FDF08D1D9AAA030044F291 /* CarModel.m */,
+				70FDF08C1D9AAA030044F291 /* CarSectionModel.h */,
+				70FDF08E1D9AAA030044F291 /* CarSectionModel.m */,
+			);
+			name = AddressBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,6 +593,8 @@
 				707FF6771D6ED9D0000C4D1A /* gesturePassword.html in Resources */,
 				70D74A881D81A012007A94D6 /* HLdycell.xib in Resources */,
 				70266CBA1D683879002163B7 /* Assets.xcassets in Resources */,
+				702229A41DB1BD28000BD135 /* window.html in Resources */,
+				70FDF08A1D9AA9F30044F291 /* cars_total.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,9 +676,18 @@
 				707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */,
 				70266CB21D683879002163B7 /* AppDelegate.m in Sources */,
 				70348EA01D71800300D3C3C5 /* HLEyeViewController.m in Sources */,
+				702229A21DB1B581000BD135 /* HLWindowViewController.m in Sources */,
 				707D83741D6EC52000488B86 /* HLDetailViewController.m in Sources */,
+				70FDF0901D9AAA030044F291 /* CarSectionModel.m in Sources */,
+				70FDF0881D9AA9E40044F291 /* HLAddressBookViewController.m in Sources */,
+				70FDF08F1D9AAA030044F291 /* CarModel.m in Sources */,
+				7022299E1DB1AD4F000BD135 /* HLDrawTextView.m in Sources */,
+				702229981DB1ACFA000BD135 /* HLHLDrawController.m in Sources */,
 				70348EAB1D72773700D3C3C5 /* HLDataBaseTool.m in Sources */,
 				70D74A801D818251007A94D6 /* HLCollectionTableViewController.m in Sources */,
+				70058DFA1D993E1000E10E45 /* HLLabel.m in Sources */,
+				706B49591DAD251500B57965 /* HLEditingTableViewController.m in Sources */,
+				70058DF51D993D6E00E10E45 /* HLCustomLabelViewController.m in Sources */,
 				70348EA31D7184DC00D3C3C5 /* HLEyeView.m in Sources */,
 				70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */,
 				70348EAF1D72775700D3C3C5 /* HLStudentModel.m in Sources */,

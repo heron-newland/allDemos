@@ -22,8 +22,13 @@
     //  将webView添加到view上
     UIWebView *web = [[UIWebView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:web];
+    
+    
+#warning 注意BUG
     //  没有此句webview会有黑条
     web.opaque = NO;
+    
+    
     web.backgroundColor = [UIColor whiteColor];
     //  加载本地html
     if ([self.detailInfos hasSuffix:@"html"]) {
@@ -52,6 +57,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
