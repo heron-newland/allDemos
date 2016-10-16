@@ -13,6 +13,8 @@
 		7022299E1DB1AD4F000BD135 /* HLDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022299D1DB1AD4F000BD135 /* HLDrawTextView.m */; };
 		702229A21DB1B581000BD135 /* HLWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702229A11DB1B581000BD135 /* HLWindowViewController.m */; };
 		702229A41DB1BD28000BD135 /* window.html in Resources */ = {isa = PBXBuildFile; fileRef = 702229A31DB1BD28000BD135 /* window.html */; };
+		70222A3C1DB324BD000BD135 /* HLSortMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70222A3B1DB324BD000BD135 /* HLSortMethodViewController.m */; };
+		70222A421DB3A1F8000BD135 /* HLAddContactLikeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70222A411DB3A1F8000BD135 /* HLAddContactLikeTableViewController.m */; };
 		70266CAF1D683879002163B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CAE1D683879002163B7 /* main.m */; };
 		70266CB21D683879002163B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CB11D683879002163B7 /* AppDelegate.m */; };
 		70266CB51D683879002163B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70266CB41D683879002163B7 /* ViewController.m */; };
@@ -77,6 +79,10 @@
 		702229A01DB1B581000BD135 /* HLWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLWindowViewController.h; sourceTree = "<group>"; };
 		702229A11DB1B581000BD135 /* HLWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLWindowViewController.m; sourceTree = "<group>"; };
 		702229A31DB1BD28000BD135 /* window.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = window.html; sourceTree = "<group>"; };
+		70222A3A1DB324BD000BD135 /* HLSortMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSortMethodViewController.h; sourceTree = "<group>"; };
+		70222A3B1DB324BD000BD135 /* HLSortMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSortMethodViewController.m; sourceTree = "<group>"; };
+		70222A401DB3A1F8000BD135 /* HLAddContactLikeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAddContactLikeTableViewController.h; sourceTree = "<group>"; };
+		70222A411DB3A1F8000BD135 /* HLAddContactLikeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAddContactLikeTableViewController.m; sourceTree = "<group>"; };
 		70266CAA1D683879002163B7 /* DemoCollections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70266CAE1D683879002163B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70266CB01D683879002163B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -238,6 +244,15 @@
 			name = WindowOperation;
 			sourceTree = "<group>";
 		};
+		70222A391DB32490000BD135 /* SortMethods */ = {
+			isa = PBXGroup;
+			children = (
+				70222A3A1DB324BD000BD135 /* HLSortMethodViewController.h */,
+				70222A3B1DB324BD000BD135 /* HLSortMethodViewController.m */,
+			);
+			name = SortMethods;
+			sourceTree = "<group>";
+		};
 		70266CA11D683879002163B7 = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +348,7 @@
 		70266CEB1D684FE7002163B7 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				70222A391DB32490000BD135 /* SortMethods */,
 				7022299F1DB1B560000BD135 /* WindowOperation */,
 				702229921DB1AC49000BD135 /* DrawRect */,
 				706B49561DAD24EB00B57965 /* TableViewAll */,
@@ -401,6 +417,8 @@
 			children = (
 				706B49571DAD251500B57965 /* HLEditingTableViewController.h */,
 				706B49581DAD251500B57965 /* HLEditingTableViewController.m */,
+				70222A401DB3A1F8000BD135 /* HLAddContactLikeTableViewController.h */,
+				70222A411DB3A1F8000BD135 /* HLAddContactLikeTableViewController.m */,
 			);
 			name = TableViewAll;
 			sourceTree = "<group>";
@@ -674,6 +692,7 @@
 				70B2F3351D6DCD41004325AB /* HLGestureViewController.m in Sources */,
 				70D74A861D818F0D007A94D6 /* HLDynamicTableViewCell.m in Sources */,
 				707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */,
+				70222A3C1DB324BD000BD135 /* HLSortMethodViewController.m in Sources */,
 				70266CB21D683879002163B7 /* AppDelegate.m in Sources */,
 				70348EA01D71800300D3C3C5 /* HLEyeViewController.m in Sources */,
 				702229A21DB1B581000BD135 /* HLWindowViewController.m in Sources */,
@@ -682,6 +701,7 @@
 				70FDF0881D9AA9E40044F291 /* HLAddressBookViewController.m in Sources */,
 				70FDF08F1D9AAA030044F291 /* CarModel.m in Sources */,
 				7022299E1DB1AD4F000BD135 /* HLDrawTextView.m in Sources */,
+				70222A421DB3A1F8000BD135 /* HLAddContactLikeTableViewController.m in Sources */,
 				702229981DB1ACFA000BD135 /* HLHLDrawController.m in Sources */,
 				70348EAB1D72773700D3C3C5 /* HLDataBaseTool.m in Sources */,
 				70D74A801D818251007A94D6 /* HLCollectionTableViewController.m in Sources */,
@@ -829,6 +849,7 @@
 			baseConfigurationReference = 71CEA1E3343DB2E6DF3C35CD /* Pods-DemoCollections.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = /Users/helong/Documents/allDemos/DemoCollections/DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -842,6 +863,7 @@
 			baseConfigurationReference = A5981421CC0D4FF51628E936 /* Pods-DemoCollections.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = /Users/helong/Documents/allDemos/DemoCollections/DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

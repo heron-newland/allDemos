@@ -7,7 +7,7 @@
 //
 
 #import "HLEditingTableViewController.h"
-
+#import "HLAddContactLikeTableViewController.h"
 @interface HLEditingTableViewController ()
 @property (nonatomic, strong) NSMutableArray *dataArray;
 @end
@@ -25,13 +25,8 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"allCell"];
     //  开启cell的编辑
     [self.tableView setEditing:YES animated:YES];
-//    self.dataArray = arr.copy;
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    //  如果tableView的cell很少空白的部分会有横线,给footerview设置一个view可以解决问题
+
+#warning  如果tableView的cell很少空白的部分会有横线,给footerview设置一个view可以解决问题
     UIView *footer = [[UIView alloc] init];
     footer.backgroundColor = [UIColor whiteColor];
     self.tableView.tableFooterView = footer;
@@ -67,6 +62,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    HLAddContactLikeTableViewController *addContactViewController = [[HLAddContactLikeTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    [self.navigationController pushViewController:addContactViewController animated:YES];
     NSLog(@"%@",cell.textLabel.text);
 }
 /// 向左滑动能出现响应的按钮操作
@@ -79,7 +77,7 @@
                                      
     UITableViewRowAction *action2 = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault title:@"刷新" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
 //        [self.dataArray removeObjectAtIndex:indexPath.row];
-        [self.tableView setEditing:YES animated:YES];
+//        [self.tableView setEditing:YES animated:YES];
         [self.tableView reloadData];
     }];
     UITableViewRowAction *action3 = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault title:@"忽略" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
@@ -92,9 +90,7 @@
 }
 /// 该方法允许移动cell, 并且在移动cell的时候要在此方法中更新数据源
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
-   NSString *source = self.dataArray[sourceIndexPath.row];
-    [self.dataArray removeObjectAtIndex:sourceIndexPath.row];
-    [self.dataArray insertObject:source atIndex:destinationIndexPath.row];
+    [self.dataArray exchangeObjectAtIndex:sourceIndexPath.row withObjectAtIndex:destinationIndexPath.row];
     
 }
 

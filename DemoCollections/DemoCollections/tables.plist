@@ -82,5 +82,13 @@
 		<key>detailInfos</key>
 		<string>window.html</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>排序的几种方法</string>
+		<key>targetVC</key>
+		<string>HLSortMethodViewController</string>
+		<key>detailInfos</key>
+		<string></string>
+	</dict>
 </array>
 </plist>

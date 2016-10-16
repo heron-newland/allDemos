@@ -54,7 +54,7 @@
     //  将缩放和透明度动画放在组动画中
     CAAnimationGroup *group = [CAAnimationGroup animation];
     group.animations = @[scaleAnimation, opacityAnimation];
-    group.duration = 5;
+    group.duration = 15;
     group.repeatCount = HUGE;
     group.autoreverses = NO;
     //  将组动画添加到layer上
