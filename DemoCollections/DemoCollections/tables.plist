@@ -90,5 +90,13 @@
 		<key>detailInfos</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>collectionView相关操作</string>
+		<key>targetVC</key>
+		<string>HLCollectionViewCollectionTableViewController</string>
+		<key>detailInfos</key>
+		<string></string>
+	</dict>
 </array>
 </plist>
