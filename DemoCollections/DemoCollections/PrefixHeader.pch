@@ -18,4 +18,19 @@
 #import "UIView+HLFrame.h"
 #import "HLDataBaseTool.h"
 #import <FMDB.h>
+#import "Header.h"
+
+//#ifdef DEBUG_MODE
+//
+//#define Log(s, ...) NSLog(@"<%@,%@>%@",__LINE__,__FUNCTION__,[NSString stringWithFormat@"%@",s], ##__VA_ARGS__)
+//#else
+//#define Log(s,...)
+//
+//#endif
+#ifdef DEBUG
+# define NSLog(format, ...) NSLog((@"[文件名:%@]" "[函数名:%s]" "[行号:%d]" format), [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define NSLog(...);
+#endif
+
 #endif /* PrefixHeader_pch */

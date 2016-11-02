@@ -1,31 +1,24 @@
 //
-//  HLPullDownFlowLayoutCollectionViewController.m
+//  HLCircleCollectionViewController.m
 //  DemoCollections
 //
 //  Created by helong on 2016/10/23.
 //  Copyright © 2016年 helong. All rights reserved.
 //
 
-#import "HLPullDownFlowLayoutCollectionViewController.h"
+#import "HLCircleCollectionViewController.h"
+#import "HLFlowLayout.h"
+#import "HLCircleLayout.h"
 #import "HLPullDownFlowLayout.h"
 
-@interface HLPullDownFlowLayoutCollectionViewController ()
+@interface HLCircleCollectionViewController ()
 
 @end
 
-@implementation HLPullDownFlowLayoutCollectionViewController
+@implementation HLCircleCollectionViewController
 
 static NSString * const reuseIdentifier = @"Cell";
-//- (instancetype)init {
-//    if (self = [super init]) {
-//        
-//        HLPullDownFlowLayout *flowLayout = [[HLPullDownFlowLayout alloc] init];
-//        
-//        self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:flowLayout];
-//        
-//    }
-//    return self;
-//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.collectionView.backgroundColor = [UIColor whiteColor];
@@ -52,7 +45,15 @@ static NSString * const reuseIdentifier = @"Cell";
     // Pass the selected object to the new view controller.
 }
 */
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    if ([self.collectionView.collectionViewLayout isKindOfClass:[HLPullDownFlowLayout class]]) {
+        [self.collectionView setCollectionViewLayout:[[HLPullDownFlowLayout alloc] init] animated:YES];
+    } else {
+        HLFlowLayout *layout = [[HLFlowLayout alloc] init];
+        layout.itemSize = CGSizeMake(100, 100);
+        [self.collectionView setCollectionViewLayout:layout animated:YES];
+    }
+}
 #pragma mark <UICollectionViewDataSource>
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
@@ -63,7 +64,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
 
-    return 20;
+    return 10;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -75,7 +76,16 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 
 #pragma mark <UICollectionViewDelegate>
-
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    int a = 10;
+    if ([self.collectionView.collectionViewLayout isKindOfClass:[HLFlowLayout class]]) {
+        [self.collectionView setCollectionViewLayout:[[HLCircleLayout alloc] init] animated:YES];
+    } else {
+        HLFlowLayout *layout = [[HLFlowLayout alloc] init];
+        layout.itemSize = CGSizeMake(100, 100);
+        [self.collectionView setCollectionViewLayout:layout animated:YES];
+    }
+}
 /*
 // Uncomment this method to specify if the specified item should be highlighted during tracking
 - (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath {

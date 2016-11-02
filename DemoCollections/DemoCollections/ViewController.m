@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HLDetailViewController.h"
 #import "HLMainModel.h"
+#import "HLQuartzTableViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -68,10 +69,19 @@
  *  在里面设置跳转的目标控制器
  */
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+   
     //  根据plist文件的字符串转化成类
     NSString *controllerString = self.tableModelArray[indexPath.row].targetVC;
     Class class = NSClassFromString(controllerString);
-    UIViewController *targetVC = [[class alloc] init];
+    UIViewController *targetVC;
+    if (indexPath.row == 13) {
+        UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"HLQuartzTableViewController" bundle:nil];
+        HLQuartzTableViewController *quartzVC =   (HLQuartzTableViewController *)[storyBoard instantiateViewControllerWithIdentifier:@"HLQuartzTableViewController"];
+        targetVC = quartzVC;
+    }else {
+        
+        targetVC = [[class alloc] init];
+    }
     //  设置目标控制器的标题
     targetVC.navigationItem.title = self.tableModelArray[indexPath.row].title;
     self.index = indexPath.row;

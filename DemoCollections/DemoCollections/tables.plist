@@ -62,7 +62,7 @@
 		<key>title</key>
 		<string>tableView的先关操作</string>
 		<key>targetVC</key>
-		<string>HLEditingTableViewController</string>
+		<string>HLGeneralTableViewController</string>
 		<key>detailInfos</key>
 		<string>http://www.jianshu.com/p/99f31c05969c</string>
 	</dict>
@@ -95,6 +95,22 @@
 		<string>collectionView相关操作</string>
 		<key>targetVC</key>
 		<string>HLCollectionViewCollectionTableViewController</string>
+		<key>detailInfos</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>屏幕旋转相关操作</string>
+		<key>targetVC</key>
+		<string>HLRotateScreenViewController</string>
+		<key>detailInfos</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>绘图相关</string>
+		<key>targetVC</key>
+		<string>HLQuartzTableViewController</string>
 		<key>detailInfos</key>
 		<string></string>
 	</dict>

@@ -36,7 +36,7 @@
 
 /**
  注意两个偏移量的区别:
- roposedContentOffset :甩动手势cell会滑动一段时间后停止,偏移量是cell停止滑动时的偏移量
+ proposedContentOffset :甩动手势cell会滑动一段时间后停止,偏移量是cell停止滑动时的偏移量
  self.collectionView.contentOffset:甩动手势cell会滑动一段时间后停止,偏移量是手指离开屏幕时的偏移量
 
 

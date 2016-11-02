@@ -108,6 +108,7 @@
             CGFloat y = width;
             attrs.frame = CGRectMake(x, y, width, height);
         } else {
+            //  后面的与前面有规律的重复
             UICollectionViewLayoutAttributes *lastAttrs = self.attributes[i - 6];
             CGRect lastFrame = lastAttrs.frame;
             lastFrame.origin.y += 2 * width;

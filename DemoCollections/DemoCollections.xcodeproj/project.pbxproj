@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		70058DF51D993D6E00E10E45 /* HLCustomLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70058DF41D993D6E00E10E45 /* HLCustomLabelViewController.m */; };
 		70058DFA1D993E1000E10E45 /* HLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70058DF91D993E1000E10E45 /* HLLabel.m */; };
+		70121E0A1DCA1EBE000AD1F1 /* HLContextOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70121E091DCA1EBE000AD1F1 /* HLContextOperationView.m */; };
+		70168BE91DC77A4A00A0B2C6 /* HLPolygonAndRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70168BE81DC77A4A00A0B2C6 /* HLPolygonAndRectView.m */; };
+		70168BEC1DC77AC800A0B2C6 /* HLPolygonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70168BEB1DC77AC800A0B2C6 /* HLPolygonViewController.m */; };
 		702229981DB1ACFA000BD135 /* HLHLDrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702229971DB1ACFA000BD135 /* HLHLDrawController.m */; };
 		7022299E1DB1AD4F000BD135 /* HLDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7022299D1DB1AD4F000BD135 /* HLDrawTextView.m */; };
 		702229A21DB1B581000BD135 /* HLWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702229A11DB1B581000BD135 /* HLWindowViewController.m */; };
@@ -31,6 +34,8 @@
 		703397921DBC606A003525D9 /* HLFlowLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703397911DBC606A003525D9 /* HLFlowLayoutViewController.m */; };
 		703397951DBC9BC5003525D9 /* HLPullDownFlowLayoutCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703397941DBC9BC5003525D9 /* HLPullDownFlowLayoutCollectionViewController.m */; };
 		703397981DBC9C25003525D9 /* HLPullDownFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 703397971DBC9C25003525D9 /* HLPullDownFlowLayout.m */; };
+		7033979B1DBCB2EF003525D9 /* HLCircleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033979A1DBCB2EF003525D9 /* HLCircleCollectionViewController.m */; };
+		7033979E1DBCB306003525D9 /* HLCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033979D1DBCB306003525D9 /* HLCircleLayout.m */; };
 		70348EA01D71800300D3C3C5 /* HLEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70348E9F1D71800300D3C3C5 /* HLEyeViewController.m */; };
 		70348EA31D7184DC00D3C3C5 /* HLEyeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70348EA21D7184DC00D3C3C5 /* HLEyeView.m */; };
 		70348EA71D7276DB00D3C3C5 /* HLDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70348EA61D7276DB00D3C3C5 /* HLDataViewController.m */; };
@@ -41,6 +46,16 @@
 		707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 707D83791D6ECC3700488B86 /* HLMainModel.m */; };
 		707FF6751D6ED55D000C4D1A /* reda.html in Resources */ = {isa = PBXBuildFile; fileRef = 707FF6741D6ED55D000C4D1A /* reda.html */; };
 		707FF6771D6ED9D0000C4D1A /* gesturePassword.html in Resources */ = {isa = PBXBuildFile; fileRef = 707FF6761D6ED9D0000C4D1A /* gesturePassword.html */; };
+		709B08861DC5868D00D64DB7 /* HLRotateScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B08851DC5868D00D64DB7 /* HLRotateScreenViewController.m */; };
+		709B08891DC5870C00D64DB7 /* HLPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B08881DC5870C00D64DB7 /* HLPresentedViewController.m */; };
+		709B088B1DC5894600D64DB7 /* Simulator Screen Shot 2016年10月30日 上午9.49.45.png in Resources */ = {isa = PBXBuildFile; fileRef = 709B088A1DC5894600D64DB7 /* Simulator Screen Shot 2016年10月30日 上午9.49.45.png */; };
+		709B088E1DC5959500D64DB7 /* HLConstrainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B088D1DC5959500D64DB7 /* HLConstrainView.m */; };
+		709B08931DC5AC4200D64DB7 /* HLQuartzTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B08911DC5AC4200D64DB7 /* HLQuartzTableViewController.m */; };
+		709B08981DC5ADB000D64DB7 /* HLQuartzTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709B08971DC5ADB000D64DB7 /* HLQuartzTableViewController.storyboard */; };
+		709B089E1DC5BDAA00D64DB7 /* HLQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B089D1DC5BDAA00D64DB7 /* HLQuartzView.m */; };
+		709B08A11DC5BF0D00D64DB7 /* HLQuartzLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B08A01DC5BF0D00D64DB7 /* HLQuartzLineView.m */; };
+		709B08A41DC620C600D64DB7 /* HLCapJointWidthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B08A31DC620C600D64DB7 /* HLCapJointWidthViewController.m */; };
+		709B08A71DC62EC000D64DB7 /* HLDashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709B08A61DC62EC000D64DB7 /* HLDashViewController.m */; };
 		70B2F3351D6DCD41004325AB /* HLGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2F3341D6DCD41004325AB /* HLGestureViewController.m */; };
 		70B2F3381D6DCD87004325AB /* HLGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2F3371D6DCD87004325AB /* HLGestureView.m */; };
 		70D74A801D818251007A94D6 /* HLCollectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D74A7F1D818251007A94D6 /* HLCollectionTableViewController.m */; };
@@ -48,6 +63,8 @@
 		70D74A861D818F0D007A94D6 /* HLDynamicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D74A851D818F0D007A94D6 /* HLDynamicTableViewCell.m */; };
 		70D74A881D81A012007A94D6 /* HLdycell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70D74A871D81A012007A94D6 /* HLdycell.xib */; };
 		70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */; };
+		70F0EDC81DC8B3B900DEB605 /* HLGeneralTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F0EDC71DC8B3B900DEB605 /* HLGeneralTableViewController.m */; };
+		70F0EDCB1DC8B66600DEB605 /* HLHeaderAndFooterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F0EDCA1DC8B66600DEB605 /* HLHeaderAndFooterTableViewController.m */; };
 		70FDF0881D9AA9E40044F291 /* HLAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FDF0871D9AA9E40044F291 /* HLAddressBookViewController.m */; };
 		70FDF08A1D9AA9F30044F291 /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70FDF0891D9AA9F30044F291 /* cars_total.plist */; };
 		70FDF08F1D9AAA030044F291 /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FDF08D1D9AAA030044F291 /* CarModel.m */; };
@@ -78,6 +95,12 @@
 		70058DF41D993D6E00E10E45 /* HLCustomLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCustomLabelViewController.m; sourceTree = "<group>"; };
 		70058DF81D993E1000E10E45 /* HLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLabel.h; sourceTree = "<group>"; };
 		70058DF91D993E1000E10E45 /* HLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLabel.m; sourceTree = "<group>"; };
+		70121E081DCA1EBE000AD1F1 /* HLContextOperationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLContextOperationView.h; sourceTree = "<group>"; };
+		70121E091DCA1EBE000AD1F1 /* HLContextOperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLContextOperationView.m; sourceTree = "<group>"; };
+		70168BE71DC77A4A00A0B2C6 /* HLPolygonAndRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPolygonAndRectView.h; sourceTree = "<group>"; };
+		70168BE81DC77A4A00A0B2C6 /* HLPolygonAndRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPolygonAndRectView.m; sourceTree = "<group>"; };
+		70168BEA1DC77AC800A0B2C6 /* HLPolygonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPolygonViewController.h; sourceTree = "<group>"; };
+		70168BEB1DC77AC800A0B2C6 /* HLPolygonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPolygonViewController.m; sourceTree = "<group>"; };
 		702229961DB1ACFA000BD135 /* HLHLDrawController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHLDrawController.h; sourceTree = "<group>"; };
 		702229971DB1ACFA000BD135 /* HLHLDrawController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHLDrawController.m; sourceTree = "<group>"; };
 		7022299C1DB1AD4F000BD135 /* HLDrawTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDrawTextView.h; sourceTree = "<group>"; };
@@ -122,6 +145,10 @@
 		703397941DBC9BC5003525D9 /* HLPullDownFlowLayoutCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPullDownFlowLayoutCollectionViewController.m; sourceTree = "<group>"; };
 		703397961DBC9C25003525D9 /* HLPullDownFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPullDownFlowLayout.h; sourceTree = "<group>"; };
 		703397971DBC9C25003525D9 /* HLPullDownFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPullDownFlowLayout.m; sourceTree = "<group>"; };
+		703397991DBCB2EF003525D9 /* HLCircleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCircleCollectionViewController.h; sourceTree = "<group>"; };
+		7033979A1DBCB2EF003525D9 /* HLCircleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCircleCollectionViewController.m; sourceTree = "<group>"; };
+		7033979C1DBCB306003525D9 /* HLCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCircleLayout.h; sourceTree = "<group>"; };
+		7033979D1DBCB306003525D9 /* HLCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCircleLayout.m; sourceTree = "<group>"; };
 		70348E9E1D71800300D3C3C5 /* HLEyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLEyeViewController.h; sourceTree = "<group>"; };
 		70348E9F1D71800300D3C3C5 /* HLEyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLEyeViewController.m; sourceTree = "<group>"; };
 		70348EA11D7184DC00D3C3C5 /* HLEyeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLEyeView.h; sourceTree = "<group>"; };
@@ -134,12 +161,31 @@
 		70348EAE1D72775700D3C3C5 /* HLStudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLStudentModel.m; sourceTree = "<group>"; };
 		706B49571DAD251500B57965 /* HLEditingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLEditingTableViewController.h; sourceTree = "<group>"; };
 		706B49581DAD251500B57965 /* HLEditingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLEditingTableViewController.m; sourceTree = "<group>"; };
+		706D31D41DC46C3600362430 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		707D83721D6EC52000488B86 /* HLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDetailViewController.h; sourceTree = "<group>"; };
 		707D83731D6EC52000488B86 /* HLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDetailViewController.m; sourceTree = "<group>"; };
 		707D83781D6ECC3700488B86 /* HLMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMainModel.h; sourceTree = "<group>"; };
 		707D83791D6ECC3700488B86 /* HLMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMainModel.m; sourceTree = "<group>"; };
 		707FF6741D6ED55D000C4D1A /* reda.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reda.html; sourceTree = "<group>"; };
 		707FF6761D6ED9D0000C4D1A /* gesturePassword.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gesturePassword.html; sourceTree = "<group>"; };
+		709B08841DC5868D00D64DB7 /* HLRotateScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRotateScreenViewController.h; sourceTree = "<group>"; };
+		709B08851DC5868D00D64DB7 /* HLRotateScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRotateScreenViewController.m; sourceTree = "<group>"; };
+		709B08871DC5870C00D64DB7 /* HLPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPresentedViewController.h; sourceTree = "<group>"; };
+		709B08881DC5870C00D64DB7 /* HLPresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPresentedViewController.m; sourceTree = "<group>"; };
+		709B088A1DC5894600D64DB7 /* Simulator Screen Shot 2016年10月30日 上午9.49.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2016年10月30日 上午9.49.45.png"; sourceTree = "<group>"; };
+		709B088C1DC5959500D64DB7 /* HLConstrainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLConstrainView.h; sourceTree = "<group>"; };
+		709B088D1DC5959500D64DB7 /* HLConstrainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLConstrainView.m; sourceTree = "<group>"; };
+		709B08901DC5AC4200D64DB7 /* HLQuartzTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLQuartzTableViewController.h; sourceTree = "<group>"; };
+		709B08911DC5AC4200D64DB7 /* HLQuartzTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLQuartzTableViewController.m; sourceTree = "<group>"; };
+		709B08971DC5ADB000D64DB7 /* HLQuartzTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HLQuartzTableViewController.storyboard; sourceTree = "<group>"; };
+		709B089C1DC5BDAA00D64DB7 /* HLQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLQuartzView.h; sourceTree = "<group>"; };
+		709B089D1DC5BDAA00D64DB7 /* HLQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLQuartzView.m; sourceTree = "<group>"; };
+		709B089F1DC5BF0D00D64DB7 /* HLQuartzLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLQuartzLineView.h; sourceTree = "<group>"; };
+		709B08A01DC5BF0D00D64DB7 /* HLQuartzLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLQuartzLineView.m; sourceTree = "<group>"; };
+		709B08A21DC620C600D64DB7 /* HLCapJointWidthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCapJointWidthViewController.h; sourceTree = "<group>"; };
+		709B08A31DC620C600D64DB7 /* HLCapJointWidthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCapJointWidthViewController.m; sourceTree = "<group>"; };
+		709B08A51DC62EC000D64DB7 /* HLDashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDashViewController.h; sourceTree = "<group>"; };
+		709B08A61DC62EC000D64DB7 /* HLDashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDashViewController.m; sourceTree = "<group>"; };
 		70B2F3331D6DCD41004325AB /* HLGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGestureViewController.h; sourceTree = "<group>"; };
 		70B2F3341D6DCD41004325AB /* HLGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGestureViewController.m; sourceTree = "<group>"; };
 		70B2F3361D6DCD87004325AB /* HLGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGestureView.h; sourceTree = "<group>"; };
@@ -153,6 +199,10 @@
 		70D74A871D81A012007A94D6 /* HLdycell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLdycell.xib; sourceTree = "<group>"; };
 		70E4D6C71D6897ED00A1C9BB /* UIView+HLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLFrame.h"; sourceTree = "<group>"; };
 		70E4D6C81D6897ED00A1C9BB /* UIView+HLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLFrame.m"; sourceTree = "<group>"; };
+		70F0EDC61DC8B3B900DEB605 /* HLGeneralTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGeneralTableViewController.h; sourceTree = "<group>"; };
+		70F0EDC71DC8B3B900DEB605 /* HLGeneralTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGeneralTableViewController.m; sourceTree = "<group>"; };
+		70F0EDC91DC8B66600DEB605 /* HLHeaderAndFooterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHeaderAndFooterTableViewController.h; sourceTree = "<group>"; };
+		70F0EDCA1DC8B66600DEB605 /* HLHeaderAndFooterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHeaderAndFooterTableViewController.m; sourceTree = "<group>"; };
 		70FDF0861D9AA9E40044F291 /* HLAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAddressBookViewController.h; sourceTree = "<group>"; };
 		70FDF0871D9AA9E40044F291 /* HLAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAddressBookViewController.m; sourceTree = "<group>"; };
 		70FDF0891D9AA9F30044F291 /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
@@ -274,6 +324,7 @@
 		70266CA11D683879002163B7 = {
 			isa = PBXGroup;
 			children = (
+				709B088A1DC5894600D64DB7 /* Simulator Screen Shot 2016年10月30日 上午9.49.45.png */,
 				70266CAC1D683879002163B7 /* DemoCollections */,
 				70266CC61D68387A002163B7 /* DemoCollectionsTests */,
 				70266CD11D68387A002163B7 /* DemoCollectionsUITests */,
@@ -317,6 +368,7 @@
 				70266CAE1D683879002163B7 /* main.m */,
 				70266CE21D68464D002163B7 /* tables.plist */,
 				70266CE11D684349002163B7 /* PrefixHeader.pch */,
+				706D31D41DC46C3600362430 /* Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -366,6 +418,8 @@
 		70266CEB1D684FE7002163B7 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				709B088F1DC5AC1E00D64DB7 /* Quartz */,
+				707469841DC2226E00D5C7D1 /* RotateScreen */,
 				709EA07B1DB64D07007731D8 /* CollectionViews */,
 				70222A391DB32490000BD135 /* SortMethods */,
 				7022299F1DB1B560000BD135 /* WindowOperation */,
@@ -402,6 +456,8 @@
 				703397911DBC606A003525D9 /* HLFlowLayoutViewController.m */,
 				703397931DBC9BC5003525D9 /* HLPullDownFlowLayoutCollectionViewController.h */,
 				703397941DBC9BC5003525D9 /* HLPullDownFlowLayoutCollectionViewController.m */,
+				703397991DBCB2EF003525D9 /* HLCircleCollectionViewController.h */,
+				7033979A1DBCB2EF003525D9 /* HLCircleCollectionViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -413,6 +469,8 @@
 				7033978E1DBC5717003525D9 /* HLFlowLayout.m */,
 				703397961DBC9C25003525D9 /* HLPullDownFlowLayout.h */,
 				703397971DBC9C25003525D9 /* HLPullDownFlowLayout.m */,
+				7033979C1DBCB306003525D9 /* HLCircleLayout.h */,
+				7033979D1DBCB306003525D9 /* HLCircleLayout.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -460,12 +518,29 @@
 		706B49561DAD24EB00B57965 /* TableViewAll */ = {
 			isa = PBXGroup;
 			children = (
+				70F0EDC61DC8B3B900DEB605 /* HLGeneralTableViewController.h */,
+				70F0EDC71DC8B3B900DEB605 /* HLGeneralTableViewController.m */,
 				706B49571DAD251500B57965 /* HLEditingTableViewController.h */,
 				706B49581DAD251500B57965 /* HLEditingTableViewController.m */,
 				70222A401DB3A1F8000BD135 /* HLAddContactLikeTableViewController.h */,
 				70222A411DB3A1F8000BD135 /* HLAddContactLikeTableViewController.m */,
+				70F0EDC91DC8B66600DEB605 /* HLHeaderAndFooterTableViewController.h */,
+				70F0EDCA1DC8B66600DEB605 /* HLHeaderAndFooterTableViewController.m */,
 			);
 			name = TableViewAll;
+			sourceTree = "<group>";
+		};
+		707469841DC2226E00D5C7D1 /* RotateScreen */ = {
+			isa = PBXGroup;
+			children = (
+				709B08841DC5868D00D64DB7 /* HLRotateScreenViewController.h */,
+				709B08851DC5868D00D64DB7 /* HLRotateScreenViewController.m */,
+				709B08871DC5870C00D64DB7 /* HLPresentedViewController.h */,
+				709B08881DC5870C00D64DB7 /* HLPresentedViewController.m */,
+				709B088C1DC5959500D64DB7 /* HLConstrainView.h */,
+				709B088D1DC5959500D64DB7 /* HLConstrainView.m */,
+			);
+			name = RotateScreen;
 			sourceTree = "<group>";
 		};
 		707D83771D6ECC1C00488B86 /* Models */ = {
@@ -475,6 +550,46 @@
 				707D83791D6ECC3700488B86 /* HLMainModel.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		709B088F1DC5AC1E00D64DB7 /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				709B08961DC5AC5400D64DB7 /* View */,
+				709B08951DC5AC4800D64DB7 /* Controller */,
+				709B08901DC5AC4200D64DB7 /* HLQuartzTableViewController.h */,
+				709B08911DC5AC4200D64DB7 /* HLQuartzTableViewController.m */,
+				709B08A21DC620C600D64DB7 /* HLCapJointWidthViewController.h */,
+				709B08A31DC620C600D64DB7 /* HLCapJointWidthViewController.m */,
+				709B08A51DC62EC000D64DB7 /* HLDashViewController.h */,
+				709B08A61DC62EC000D64DB7 /* HLDashViewController.m */,
+				70168BEA1DC77AC800A0B2C6 /* HLPolygonViewController.h */,
+				70168BEB1DC77AC800A0B2C6 /* HLPolygonViewController.m */,
+				709B08971DC5ADB000D64DB7 /* HLQuartzTableViewController.storyboard */,
+			);
+			name = Quartz;
+			sourceTree = "<group>";
+		};
+		709B08951DC5AC4800D64DB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		709B08961DC5AC5400D64DB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				709B089C1DC5BDAA00D64DB7 /* HLQuartzView.h */,
+				709B089D1DC5BDAA00D64DB7 /* HLQuartzView.m */,
+				709B089F1DC5BF0D00D64DB7 /* HLQuartzLineView.h */,
+				709B08A01DC5BF0D00D64DB7 /* HLQuartzLineView.m */,
+				70168BE71DC77A4A00A0B2C6 /* HLPolygonAndRectView.h */,
+				70168BE81DC77A4A00A0B2C6 /* HLPolygonAndRectView.m */,
+				70121E081DCA1EBE000AD1F1 /* HLContextOperationView.h */,
+				70121E091DCA1EBE000AD1F1 /* HLContextOperationView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		709EA07B1DB64D07007731D8 /* CollectionViews */ = {
@@ -663,8 +778,10 @@
 				70266CBD1D683879002163B7 /* LaunchScreen.storyboard in Resources */,
 				70266CE31D68464D002163B7 /* tables.plist in Resources */,
 				707FF6771D6ED9D0000C4D1A /* gesturePassword.html in Resources */,
+				709B088B1DC5894600D64DB7 /* Simulator Screen Shot 2016年10月30日 上午9.49.45.png in Resources */,
 				70D74A881D81A012007A94D6 /* HLdycell.xib in Resources */,
 				70266CBA1D683879002163B7 /* Assets.xcassets in Resources */,
+				709B08981DC5ADB000D64DB7 /* HLQuartzTableViewController.storyboard in Resources */,
 				702229A41DB1BD28000BD135 /* window.html in Resources */,
 				70FDF08A1D9AA9F30044F291 /* cars_total.plist in Resources */,
 			);
@@ -739,20 +856,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709B08A71DC62EC000D64DB7 /* HLDashViewController.m in Sources */,
 				70B2F3381D6DCD87004325AB /* HLGestureView.m in Sources */,
 				70D74A831D81884C007A94D6 /* HLDynamicCollectionViewCell.m in Sources */,
 				70266CF11D68504C002163B7 /* HLRedaController.m in Sources */,
 				70266CB51D683879002163B7 /* ViewController.m in Sources */,
 				703397871DBB311E003525D9 /* HLMoveItemCollectionViewController.m in Sources */,
+				709B08861DC5868D00D64DB7 /* HLRotateScreenViewController.m in Sources */,
 				703397951DBC9BC5003525D9 /* HLPullDownFlowLayoutCollectionViewController.m in Sources */,
+				7033979B1DBCB2EF003525D9 /* HLCircleCollectionViewController.m in Sources */,
 				70B2F3351D6DCD41004325AB /* HLGestureViewController.m in Sources */,
+				709B08A41DC620C600D64DB7 /* HLCapJointWidthViewController.m in Sources */,
 				703397921DBC606A003525D9 /* HLFlowLayoutViewController.m in Sources */,
+				70121E0A1DCA1EBE000AD1F1 /* HLContextOperationView.m in Sources */,
 				70D74A861D818F0D007A94D6 /* HLDynamicTableViewCell.m in Sources */,
 				703397841DBB2F69003525D9 /* HLCollectionViewCollectionTableViewController.m in Sources */,
 				707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */,
 				7033978F1DBC5717003525D9 /* HLFlowLayout.m in Sources */,
 				70222A3C1DB324BD000BD135 /* HLSortMethodViewController.m in Sources */,
+				70F0EDCB1DC8B66600DEB605 /* HLHeaderAndFooterTableViewController.m in Sources */,
 				70266CB21D683879002163B7 /* AppDelegate.m in Sources */,
+				70F0EDC81DC8B3B900DEB605 /* HLGeneralTableViewController.m in Sources */,
+				709B089E1DC5BDAA00D64DB7 /* HLQuartzView.m in Sources */,
 				70348EA01D71800300D3C3C5 /* HLEyeViewController.m in Sources */,
 				702229A21DB1B581000BD135 /* HLWindowViewController.m in Sources */,
 				707D83741D6EC52000488B86 /* HLDetailViewController.m in Sources */,
@@ -765,14 +890,21 @@
 				702229981DB1ACFA000BD135 /* HLHLDrawController.m in Sources */,
 				70348EAB1D72773700D3C3C5 /* HLDataBaseTool.m in Sources */,
 				70D74A801D818251007A94D6 /* HLCollectionTableViewController.m in Sources */,
+				709B088E1DC5959500D64DB7 /* HLConstrainView.m in Sources */,
 				70058DFA1D993E1000E10E45 /* HLLabel.m in Sources */,
+				70168BE91DC77A4A00A0B2C6 /* HLPolygonAndRectView.m in Sources */,
 				706B49591DAD251500B57965 /* HLEditingTableViewController.m in Sources */,
 				70058DF51D993D6E00E10E45 /* HLCustomLabelViewController.m in Sources */,
 				70348EA31D7184DC00D3C3C5 /* HLEyeView.m in Sources */,
 				70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */,
+				709B08891DC5870C00D64DB7 /* HLPresentedViewController.m in Sources */,
 				70348EAF1D72775700D3C3C5 /* HLStudentModel.m in Sources */,
+				709B08A11DC5BF0D00D64DB7 /* HLQuartzLineView.m in Sources */,
+				709B08931DC5AC4200D64DB7 /* HLQuartzTableViewController.m in Sources */,
 				70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */,
+				7033979E1DBCB306003525D9 /* HLCircleLayout.m in Sources */,
 				70348EA71D7276DB00D3C3C5 /* HLDataViewController.m in Sources */,
+				70168BEC1DC77AC800A0B2C6 /* HLPolygonViewController.m in Sources */,
 				70266CAF1D683879002163B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -910,8 +1042,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7D9PWHA8VU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/helong/Documents/allDemos/DemoCollections/DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.helong.DemoCollections;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -924,8 +1059,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7D9PWHA8VU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/helong/Documents/allDemos/DemoCollections/DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.helong.DemoCollections;
 				PRODUCT_NAME = "$(TARGET_NAME)";

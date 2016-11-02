@@ -11,6 +11,8 @@
 #import "HLFlowLayoutViewController.h"
 #import "HLPullDownFlowLayoutCollectionViewController.h"
 #import "HLPullDownFlowLayout.h"
+#import "HLCircleCollectionViewController.h"
+#import "HLCircleLayout.h"
 
 @interface HLCollectionViewCollectionTableViewController ()
 @property (nonatomic, strong) NSMutableArray *dataSource;
@@ -70,12 +72,12 @@ static NSString *reuseIdentifierForCell = @"reuseIdentifierForCell";
     }
     if (indexPath.row == 2) {
         HLPullDownFlowLayout *flowLayout = [[HLPullDownFlowLayout alloc] init];
-//        flowLayout.itemSize = CGSizeMake(kScreenWidth/3, kScreenWidth/3);
-//        flowLayout.minimumLineSpacing = 0;
-//        flowLayout.minimumInteritemSpacing = 0;
-        
         HLPullDownFlowLayoutCollectionViewController *moveVC = [[HLPullDownFlowLayoutCollectionViewController alloc] initWithCollectionViewLayout:flowLayout];
-        
+        [self.navigationController pushViewController:moveVC animated:YES];
+    }
+    if (indexPath.row == 3) {
+        HLCircleLayout *flowLayout = [[HLCircleLayout alloc] init];
+        HLCircleCollectionViewController *moveVC = [[HLCircleCollectionViewController alloc] initWithCollectionViewLayout:flowLayout];
         [self.navigationController pushViewController:moveVC animated:YES];
     }
 }
@@ -126,7 +128,7 @@ static NSString *reuseIdentifierForCell = @"reuseIdentifierForCell";
 #pragma mark - 懒加载数据源
 - (NSMutableArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = [NSMutableArray arrayWithArray:@[@"移动重排,header,footer",@"流自定义流水布局相册",@"下拉流水布局",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"11",@"12",@"13",@"14",@"15"]];
+        _dataSource = [NSMutableArray arrayWithArray:@[@"移动重排,header,footer",@"流自定义流水布局相册",@"下拉流水布局",@"环形布局",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"11",@"12",@"13",@"14",@"15"]];
     }
     return _dataSource;
 }
