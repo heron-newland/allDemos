@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B7A55FE25B6B36A007C4119 /* HLLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A55FD25B6B36A007C4119 /* HLLogViewController.m */; };
+		5BFBB32225A550C200563635 /* HLPresentEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBB32125A550C200563635 /* HLPresentEffectViewController.m */; };
+		5BFBB32525A550D900563635 /* HLPushEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBB32425A550D900563635 /* HLPushEffectViewController.m */; };
+		5BFBB32825A551A800563635 /* HLPresentTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBB32725A551A800563635 /* HLPresentTestViewController.m */; };
 		70058DF51D993D6E00E10E45 /* HLCustomLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70058DF41D993D6E00E10E45 /* HLCustomLabelViewController.m */; };
 		70058DFA1D993E1000E10E45 /* HLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70058DF91D993E1000E10E45 /* HLLabel.m */; };
 		70121E0A1DCA1EBE000AD1F1 /* HLContextOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70121E091DCA1EBE000AD1F1 /* HLContextOperationView.m */; };
@@ -91,6 +95,14 @@
 
 /* Begin PBXFileReference section */
 		54094EC404360C4182D743A2 /* libPods-DemoCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCollections.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7A55FC25B6B36A007C4119 /* HLLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLogViewController.h; sourceTree = "<group>"; };
+		5B7A55FD25B6B36A007C4119 /* HLLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLogViewController.m; sourceTree = "<group>"; };
+		5BFBB32025A550C200563635 /* HLPresentEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPresentEffectViewController.h; sourceTree = "<group>"; };
+		5BFBB32125A550C200563635 /* HLPresentEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPresentEffectViewController.m; sourceTree = "<group>"; };
+		5BFBB32325A550D900563635 /* HLPushEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPushEffectViewController.h; sourceTree = "<group>"; };
+		5BFBB32425A550D900563635 /* HLPushEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPushEffectViewController.m; sourceTree = "<group>"; };
+		5BFBB32625A551A800563635 /* HLPresentTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPresentTestViewController.h; sourceTree = "<group>"; };
+		5BFBB32725A551A800563635 /* HLPresentTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPresentTestViewController.m; sourceTree = "<group>"; };
 		70058DF31D993D6E00E10E45 /* HLCustomLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCustomLabelViewController.h; sourceTree = "<group>"; };
 		70058DF41D993D6E00E10E45 /* HLCustomLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCustomLabelViewController.m; sourceTree = "<group>"; };
 		70058DF81D993E1000E10E45 /* HLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLabel.h; sourceTree = "<group>"; };
@@ -246,6 +258,35 @@
 				54094EC404360C4182D743A2 /* libPods-DemoCollections.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B5BD8EF259C2FDE00BAD67D /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				5B7A55FC25B6B36A007C4119 /* HLLogViewController.h */,
+				5B7A55FD25B6B36A007C4119 /* HLLogViewController.m */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
+		5BFBB31E25A5507900563635 /* PushEffect */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBB32325A550D900563635 /* HLPushEffectViewController.h */,
+				5BFBB32425A550D900563635 /* HLPushEffectViewController.m */,
+			);
+			name = PushEffect;
+			sourceTree = "<group>";
+		};
+		5BFBB31F25A5509200563635 /* PresentEffect */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBB32025A550C200563635 /* HLPresentEffectViewController.h */,
+				5BFBB32125A550C200563635 /* HLPresentEffectViewController.m */,
+				5BFBB32625A551A800563635 /* HLPresentTestViewController.h */,
+				5BFBB32725A551A800563635 /* HLPresentTestViewController.m */,
+			);
+			name = PresentEffect;
 			sourceTree = "<group>";
 		};
 		6B9416C32929693E5FCDEB8E /* Pods */ = {
@@ -418,6 +459,9 @@
 		70266CEB1D684FE7002163B7 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				5BFBB31F25A5509200563635 /* PresentEffect */,
+				5BFBB31E25A5507900563635 /* PushEffect */,
+				5B5BD8EF259C2FDE00BAD67D /* Log */,
 				709B088F1DC5AC1E00D64DB7 /* Quartz */,
 				707469841DC2226E00D5C7D1 /* RotateScreen */,
 				709EA07B1DB64D07007731D8 /* CollectionViews */,
@@ -557,6 +601,13 @@
 			children = (
 				709B08961DC5AC5400D64DB7 /* View */,
 				709B08951DC5AC4800D64DB7 /* Controller */,
+			);
+			name = Quartz;
+			sourceTree = "<group>";
+		};
+		709B08951DC5AC4800D64DB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				709B08901DC5AC4200D64DB7 /* HLQuartzTableViewController.h */,
 				709B08911DC5AC4200D64DB7 /* HLQuartzTableViewController.m */,
 				709B08A21DC620C600D64DB7 /* HLCapJointWidthViewController.h */,
@@ -566,13 +617,6 @@
 				70168BEA1DC77AC800A0B2C6 /* HLPolygonViewController.h */,
 				70168BEB1DC77AC800A0B2C6 /* HLPolygonViewController.m */,
 				709B08971DC5ADB000D64DB7 /* HLQuartzTableViewController.storyboard */,
-			);
-			name = Quartz;
-			sourceTree = "<group>";
-		};
-		709B08951DC5AC4800D64DB7 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -675,8 +719,6 @@
 				70266CA61D683879002163B7 /* Sources */,
 				70266CA71D683879002163B7 /* Frameworks */,
 				70266CA81D683879002163B7 /* Resources */,
-				E32DE7DBBF1D08A1DC08856C /* [CP] Embed Pods Frameworks */,
-				1C901DAE2840A165F8BD954F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -754,6 +796,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -804,49 +847,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C901DAE2840A165F8BD954F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		39CCD20027FD1A19C36EDDA6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoCollections-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E32DE7DBBF1D08A1DC08856C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -862,6 +878,7 @@
 				70266CF11D68504C002163B7 /* HLRedaController.m in Sources */,
 				70266CB51D683879002163B7 /* ViewController.m in Sources */,
 				703397871DBB311E003525D9 /* HLMoveItemCollectionViewController.m in Sources */,
+				5BFBB32225A550C200563635 /* HLPresentEffectViewController.m in Sources */,
 				709B08861DC5868D00D64DB7 /* HLRotateScreenViewController.m in Sources */,
 				703397951DBC9BC5003525D9 /* HLPullDownFlowLayoutCollectionViewController.m in Sources */,
 				7033979B1DBCB2EF003525D9 /* HLCircleCollectionViewController.m in Sources */,
@@ -896,12 +913,15 @@
 				706B49591DAD251500B57965 /* HLEditingTableViewController.m in Sources */,
 				70058DF51D993D6E00E10E45 /* HLCustomLabelViewController.m in Sources */,
 				70348EA31D7184DC00D3C3C5 /* HLEyeView.m in Sources */,
+				5BFBB32825A551A800563635 /* HLPresentTestViewController.m in Sources */,
 				70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */,
 				709B08891DC5870C00D64DB7 /* HLPresentedViewController.m in Sources */,
+				5BFBB32525A550D900563635 /* HLPushEffectViewController.m in Sources */,
 				70348EAF1D72775700D3C3C5 /* HLStudentModel.m in Sources */,
 				709B08A11DC5BF0D00D64DB7 /* HLQuartzLineView.m in Sources */,
 				709B08931DC5AC4200D64DB7 /* HLQuartzTableViewController.m in Sources */,
 				70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */,
+				5B7A55FE25B6B36A007C4119 /* HLLogViewController.m in Sources */,
 				7033979E1DBCB306003525D9 /* HLCircleLayout.m in Sources */,
 				70348EA71D7276DB00D3C3C5 /* HLDataViewController.m in Sources */,
 				70168BEC1DC77AC800A0B2C6 /* HLPolygonViewController.m in Sources */,
@@ -1044,7 +1064,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7D9PWHA8VU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/helong/Documents/allDemos/DemoCollections/DemoCollections/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1061,7 +1081,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7D9PWHA8VU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/helong/Documents/allDemos/DemoCollections/DemoCollections/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

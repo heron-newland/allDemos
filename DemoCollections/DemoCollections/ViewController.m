@@ -28,6 +28,10 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self configureUI];
+    
+    
+    [self timeStringWithMinute:30 format:nil];
+    
 }
 /**
  *  初始化UI
@@ -128,4 +132,26 @@
     }
     return _tableModelArray;
 }
+
+
+//test
+- (NSString *)timeStringWithMinute:(NSUInteger)minutes format:(NSString *)format {
+    NSUInteger day;
+    NSUInteger hour;
+    NSUInteger minute;
+    
+    hour = minutes % 60;
+    if (hour < 0) {
+        return [NSString stringWithFormat:@"%ld分钟",minutes];
+    }
+    day = hour % 24;
+    if (day < 0) {
+        minute = minutes - hour * 60;
+        return [NSString stringWithFormat:@"%ld小时%ld分钟",hour,minute];
+    }
+    hour = hour - day * 24;
+    minute = minutes - day * 24 * 60 - hour * 60;
+    return [NSString stringWithFormat:@"%ld天%ld小时%ld分钟",day,hour,minute];
+}
+//test end
 @end

@@ -114,5 +114,29 @@
 		<key>detailInfos</key>
 		<string></string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>present动画和无动画效果</string>
+		<key>targetVC</key>
+		<string>HLPresentEffectViewController</string>
+		<key>detailInfos</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>push动画和无动画效果</string>
+		<key>targetVC</key>
+		<string>HLPushEffectViewController</string>
+		<key>detailInfos</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Log记录</string>
+		<key>targetVC</key>
+		<string>HLLogViewController</string>
+		<key>detailInfos</key>
+		<string></string>
+	</dict>
 </array>
 </plist>
