@@ -94,4 +94,31 @@
 //
     return [NSString stringWithFormat:@"%@%@%@",dayStr,hourStr,minuteStr];
 }
+
+- (void)testBlock {
+    __block int a = 10;
+    __block NSArray *eee = @[@"kkkkk"];
+    __block NSMutableArray *e = [NSMutableArray array];
+    
+     void(^ok)() = ^() {
+         a++;
+         eee = @[@"kjkj"];
+         [e addObject:@"dd"];
+         NSLog(@"%ld==%p===%p===%p",a,&a,eee,e);
+     };
+     ok();
+     NSLog(@"%ld==%p===%p===%p",a,&a,eee,e);
+}
+
+- (void)testAutoRelease {
+    
+    @autoreleasepool {
+        NSString *str = @"ddd";
+        NSLog(@"1%@",str);
+        @autoreleasepool {
+            NSLog(@"2%@",str);
+        }
+    };
+    
+}
 @end

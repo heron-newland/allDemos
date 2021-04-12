@@ -7,7 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B17CD3625D0DD8D009893FA /* HLSocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B17CD3525D0DD8D009893FA /* HLSocketViewController.m */; };
+		5B3A9C1825FA00BB003F305B /* HLRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A9C1725FA00BB003F305B /* HLRuntimeViewController.m */; };
+		5B3A9C1C25FA09C1003F305B /* HLRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A9C1B25FA09C1003F305B /* HLRACViewController.m */; };
+		5B3A9C1F25FA0F56003F305B /* HLLRac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3A9C1E25FA0F56003F305B /* HLLRac.swift */; };
+		5B3E3B0B25CAA6C5009B5E5C /* HLAPIAttributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E3B0A25CAA6C5009B5E5C /* HLAPIAttributeViewController.m */; };
+		5B47B07625F3783900D7AD70 /* HLKeepAliveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B47B07525F3783900D7AD70 /* HLKeepAliveViewController.m */; };
+		5B47B07825F3875100D7AD70 /* 1004523.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B47B07725F3875100D7AD70 /* 1004523.mp3 */; };
+		5B47B07B25F5BB2500D7AD70 /* HLAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B47B07A25F5BB2400D7AD70 /* HLAudioManager.m */; };
+		5B47B07E25F60B3900D7AD70 /* HLLockStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B47B07D25F60B3900D7AD70 /* HLLockStatus.m */; };
+		5B5245882612AFB8004F97A3 /* NSObject+HLTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5245872612AFB8004F97A3 /* NSObject+HLTarget.m */; };
+		5B52458B2612B491004F97A3 /* HLFowardTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52458A2612B491004F97A3 /* HLFowardTarget.m */; };
+		5B52458E2612BEA3004F97A3 /* UIViewController+HLExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52458D2612BEA3004F97A3 /* UIViewController+HLExchange.m */; };
+		5B524591261D4552004F97A3 /* HLQuartzTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B524590261D4552004F97A3 /* HLQuartzTextViewController.m */; };
+		5B524594261D4596004F97A3 /* HLQuartzTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B524593261D4596004F97A3 /* HLQuartzTextView.m */; };
+		5B524597261EE2FE004F97A3 /* HLScaleRuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B524596261EE2FE004F97A3 /* HLScaleRuleView.m */; };
+		5B52459A261EE30D004F97A3 /* HLScaleRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B524599261EE30D004F97A3 /* HLScaleRuleViewController.m */; };
+		5B6A0FCE25D2398900510294 /* HLQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A0FCC25D2398900510294 /* HLQRCodeViewController.m */; };
+		5B6A0FCF25D2398900510294 /* HLQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A0FCD25D2398900510294 /* HLQRCodeViewController.xib */; };
 		5B7A55FE25B6B36A007C4119 /* HLLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A55FD25B6B36A007C4119 /* HLLogViewController.m */; };
+		5B7ABE5525E63C000016AE61 /* HLStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7ABE5425E63C000016AE61 /* HLStatusBarViewController.m */; };
+		5B84C1F125F61A050096071F /* HLResidentThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B84C1F025F61A050096071F /* HLResidentThread.m */; };
+		5B84C1F725F71ED90096071F /* HLLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B84C1F625F71ED90096071F /* HLLocationManager.m */; };
+		5B96259E25CA790F00FD8459 /* HLGeneratePicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B96259D25CA790F00FD8459 /* HLGeneratePicViewController.m */; };
+		5BB55EE025F774D60069049C /* HLTemporary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB55EDF25F774D60069049C /* HLTemporary.m */; };
+		5BD116E925BFA9F800D64059 /* HLPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD116E825BFA9F800D64059 /* HLPayViewController.m */; };
+		5BD116F225BFC74E00D64059 /* HLPaymentManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD116F125BFC74E00D64059 /* HLPaymentManger.m */; };
+		5BD116F625C0035F00D64059 /* HLJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD116F525C0035F00D64059 /* HLJSViewController.m */; };
+		5BE92F8125E8C2D4007FE46B /* HLWebKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE92F8025E8C2D4007FE46B /* HLWebKitViewController.m */; };
 		5BFBB32225A550C200563635 /* HLPresentEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBB32125A550C200563635 /* HLPresentEffectViewController.m */; };
 		5BFBB32525A550D900563635 /* HLPushEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBB32425A550D900563635 /* HLPushEffectViewController.m */; };
 		5BFBB32825A551A800563635 /* HLPresentTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFBB32725A551A800563635 /* HLPresentTestViewController.m */; };
@@ -73,7 +100,7 @@
 		70FDF08A1D9AA9F30044F291 /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70FDF0891D9AA9F30044F291 /* cars_total.plist */; };
 		70FDF08F1D9AAA030044F291 /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FDF08D1D9AAA030044F291 /* CarModel.m */; };
 		70FDF0901D9AAA030044F291 /* CarSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FDF08E1D9AAA030044F291 /* CarSectionModel.m */; };
-		B995124BF8520564E162ADC5 /* libPods-DemoCollections.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54094EC404360C4182D743A2 /* libPods-DemoCollections.a */; };
+		AB63F4BC4058F29EDF8A33CA /* Pods_DemoCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34DEB3BCD343D48823F0572 /* Pods_DemoCollections.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,9 +121,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54094EC404360C4182D743A2 /* libPods-DemoCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoCollections.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B17CD3425D0DD8D009893FA /* HLSocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSocketViewController.h; sourceTree = "<group>"; };
+		5B17CD3525D0DD8D009893FA /* HLSocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSocketViewController.m; sourceTree = "<group>"; };
+		5B3A9C1625FA00BB003F305B /* HLRuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLRuntimeViewController.h; sourceTree = "<group>"; };
+		5B3A9C1725FA00BB003F305B /* HLRuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLRuntimeViewController.m; sourceTree = "<group>"; };
+		5B3A9C1A25FA09C1003F305B /* HLRACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLRACViewController.h; sourceTree = "<group>"; };
+		5B3A9C1B25FA09C1003F305B /* HLRACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLRACViewController.m; sourceTree = "<group>"; };
+		5B3A9C1D25FA0F56003F305B /* DemoCollections-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoCollections-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B3A9C1E25FA0F56003F305B /* HLLRac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLLRac.swift; sourceTree = "<group>"; };
+		5B3E3B0925CAA6C5009B5E5C /* HLAPIAttributeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLAPIAttributeViewController.h; sourceTree = "<group>"; };
+		5B3E3B0A25CAA6C5009B5E5C /* HLAPIAttributeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAPIAttributeViewController.m; sourceTree = "<group>"; };
+		5B47B07425F3783900D7AD70 /* HLKeepAliveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLKeepAliveViewController.h; sourceTree = "<group>"; };
+		5B47B07525F3783900D7AD70 /* HLKeepAliveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLKeepAliveViewController.m; sourceTree = "<group>"; };
+		5B47B07725F3875100D7AD70 /* 1004523.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1004523.mp3; sourceTree = "<group>"; };
+		5B47B07925F5BB2400D7AD70 /* HLAudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLAudioManager.h; sourceTree = "<group>"; };
+		5B47B07A25F5BB2400D7AD70 /* HLAudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAudioManager.m; sourceTree = "<group>"; };
+		5B47B07C25F60B3900D7AD70 /* HLLockStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLockStatus.h; sourceTree = "<group>"; };
+		5B47B07D25F60B3900D7AD70 /* HLLockStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLockStatus.m; sourceTree = "<group>"; };
+		5B5245862612AFB8004F97A3 /* NSObject+HLTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLTarget.h"; sourceTree = "<group>"; };
+		5B5245872612AFB8004F97A3 /* NSObject+HLTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLTarget.m"; sourceTree = "<group>"; };
+		5B5245892612B491004F97A3 /* HLFowardTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLFowardTarget.h; sourceTree = "<group>"; };
+		5B52458A2612B491004F97A3 /* HLFowardTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLFowardTarget.m; sourceTree = "<group>"; };
+		5B52458C2612BEA3004F97A3 /* UIViewController+HLExchange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HLExchange.h"; sourceTree = "<group>"; };
+		5B52458D2612BEA3004F97A3 /* UIViewController+HLExchange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HLExchange.m"; sourceTree = "<group>"; };
+		5B52458F261D4552004F97A3 /* HLQuartzTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLQuartzTextViewController.h; sourceTree = "<group>"; };
+		5B524590261D4552004F97A3 /* HLQuartzTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLQuartzTextViewController.m; sourceTree = "<group>"; };
+		5B524592261D4596004F97A3 /* HLQuartzTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLQuartzTextView.h; sourceTree = "<group>"; };
+		5B524593261D4596004F97A3 /* HLQuartzTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLQuartzTextView.m; sourceTree = "<group>"; };
+		5B524595261EE2FE004F97A3 /* HLScaleRuleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLScaleRuleView.h; sourceTree = "<group>"; };
+		5B524596261EE2FE004F97A3 /* HLScaleRuleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLScaleRuleView.m; sourceTree = "<group>"; };
+		5B524598261EE30D004F97A3 /* HLScaleRuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLScaleRuleViewController.h; sourceTree = "<group>"; };
+		5B524599261EE30D004F97A3 /* HLScaleRuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLScaleRuleViewController.m; sourceTree = "<group>"; };
+		5B5BD0B025C8EA7600C3023A /* DemoCollectionsDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoCollectionsDebug.entitlements; sourceTree = "<group>"; };
+		5B6A0FCB25D2398900510294 /* HLQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLQRCodeViewController.h; sourceTree = "<group>"; };
+		5B6A0FCC25D2398900510294 /* HLQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLQRCodeViewController.m; sourceTree = "<group>"; };
+		5B6A0FCD25D2398900510294 /* HLQRCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLQRCodeViewController.xib; sourceTree = "<group>"; };
 		5B7A55FC25B6B36A007C4119 /* HLLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLogViewController.h; sourceTree = "<group>"; };
 		5B7A55FD25B6B36A007C4119 /* HLLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLogViewController.m; sourceTree = "<group>"; };
+		5B7ABE5325E63C000016AE61 /* HLStatusBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLStatusBarViewController.h; sourceTree = "<group>"; };
+		5B7ABE5425E63C000016AE61 /* HLStatusBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLStatusBarViewController.m; sourceTree = "<group>"; };
+		5B84C1EF25F61A050096071F /* HLResidentThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLResidentThread.h; sourceTree = "<group>"; };
+		5B84C1F025F61A050096071F /* HLResidentThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLResidentThread.m; sourceTree = "<group>"; };
+		5B84C1F525F71ED90096071F /* HLLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLocationManager.h; sourceTree = "<group>"; };
+		5B84C1F625F71ED90096071F /* HLLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLocationManager.m; sourceTree = "<group>"; };
+		5B96259C25CA790F00FD8459 /* HLGeneratePicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLGeneratePicViewController.h; sourceTree = "<group>"; };
+		5B96259D25CA790F00FD8459 /* HLGeneratePicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLGeneratePicViewController.m; sourceTree = "<group>"; };
+		5BB55EDE25F774D60069049C /* HLTemporary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLTemporary.h; sourceTree = "<group>"; };
+		5BB55EDF25F774D60069049C /* HLTemporary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLTemporary.m; sourceTree = "<group>"; };
+		5BD116E725BFA9F800D64059 /* HLPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPayViewController.h; sourceTree = "<group>"; };
+		5BD116E825BFA9F800D64059 /* HLPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPayViewController.m; sourceTree = "<group>"; };
+		5BD116ED25BFB9A800D64059 /* DemoCollections.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoCollections.entitlements; sourceTree = "<group>"; };
+		5BD116EE25BFC67D00D64059 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		5BD116F025BFC74E00D64059 /* HLPaymentManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPaymentManger.h; sourceTree = "<group>"; };
+		5BD116F125BFC74E00D64059 /* HLPaymentManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPaymentManger.m; sourceTree = "<group>"; };
+		5BD116F425C0035F00D64059 /* HLJSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLJSViewController.h; sourceTree = "<group>"; };
+		5BD116F525C0035F00D64059 /* HLJSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLJSViewController.m; sourceTree = "<group>"; };
+		5BE92F7F25E8C2D4007FE46B /* HLWebKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLWebKitViewController.h; sourceTree = "<group>"; };
+		5BE92F8025E8C2D4007FE46B /* HLWebKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLWebKitViewController.m; sourceTree = "<group>"; };
 		5BFBB32025A550C200563635 /* HLPresentEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPresentEffectViewController.h; sourceTree = "<group>"; };
 		5BFBB32125A550C200563635 /* HLPresentEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPresentEffectViewController.m; sourceTree = "<group>"; };
 		5BFBB32325A550D900563635 /* HLPushEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPushEffectViewController.h; sourceTree = "<group>"; };
@@ -224,6 +305,7 @@
 		70FDF08E1D9AAA030044F291 /* CarSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarSectionModel.m; sourceTree = "<group>"; };
 		71CEA1E3343DB2E6DF3C35CD /* Pods-DemoCollections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections.debug.xcconfig"; sourceTree = "<group>"; };
 		A5981421CC0D4FF51628E936 /* Pods-DemoCollections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCollections.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCollections/Pods-DemoCollections.release.xcconfig"; sourceTree = "<group>"; };
+		B34DEB3BCD343D48823F0572 /* Pods_DemoCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,7 +313,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B995124BF8520564E162ADC5 /* libPods-DemoCollections.a in Frameworks */,
+				AB63F4BC4058F29EDF8A33CA /* Pods_DemoCollections.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +337,72 @@
 		088221E9CA7AC2FBAE94DD3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54094EC404360C4182D743A2 /* libPods-DemoCollections.a */,
+				5BD116EE25BFC67D00D64059 /* PassKit.framework */,
+				B34DEB3BCD343D48823F0572 /* Pods_DemoCollections.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B17CD3025D0DD60009893FA /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				5B17CD3425D0DD8D009893FA /* HLSocketViewController.h */,
+				5B17CD3525D0DD8D009893FA /* HLSocketViewController.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		5B3A9C1525FA00A3003F305B /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A9C1625FA00BB003F305B /* HLRuntimeViewController.h */,
+				5B3A9C1725FA00BB003F305B /* HLRuntimeViewController.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		5B3A9C1925FA09B3003F305B /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				5B3A9C1A25FA09C1003F305B /* HLRACViewController.h */,
+				5B3A9C1B25FA09C1003F305B /* HLRACViewController.m */,
+				5B52458C2612BEA3004F97A3 /* UIViewController+HLExchange.h */,
+				5B52458D2612BEA3004F97A3 /* UIViewController+HLExchange.m */,
+				5B3A9C1E25FA0F56003F305B /* HLLRac.swift */,
+				5B5245892612B491004F97A3 /* HLFowardTarget.h */,
+				5B52458A2612B491004F97A3 /* HLFowardTarget.m */,
+				5B5245862612AFB8004F97A3 /* NSObject+HLTarget.h */,
+				5B5245872612AFB8004F97A3 /* NSObject+HLTarget.m */,
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
+		5B3E3B0825CAA6AF009B5E5C /* API_Attribute */ = {
+			isa = PBXGroup;
+			children = (
+				5B3E3B0925CAA6C5009B5E5C /* HLAPIAttributeViewController.h */,
+				5B3E3B0A25CAA6C5009B5E5C /* HLAPIAttributeViewController.m */,
+			);
+			path = API_Attribute;
+			sourceTree = "<group>";
+		};
+		5B47B07325F3780F00D7AD70 /* KeepAppAlive */ = {
+			isa = PBXGroup;
+			children = (
+				5B47B07425F3783900D7AD70 /* HLKeepAliveViewController.h */,
+				5B47B07525F3783900D7AD70 /* HLKeepAliveViewController.m */,
+				5BB55EDE25F774D60069049C /* HLTemporary.h */,
+				5BB55EDF25F774D60069049C /* HLTemporary.m */,
+				5B84C1F525F71ED90096071F /* HLLocationManager.h */,
+				5B84C1F625F71ED90096071F /* HLLocationManager.m */,
+				5B47B07925F5BB2400D7AD70 /* HLAudioManager.h */,
+				5B47B07A25F5BB2400D7AD70 /* HLAudioManager.m */,
+				5B47B07C25F60B3900D7AD70 /* HLLockStatus.h */,
+				5B47B07D25F60B3900D7AD70 /* HLLockStatus.m */,
+				5B84C1EF25F61A050096071F /* HLResidentThread.h */,
+				5B84C1F025F61A050096071F /* HLResidentThread.m */,
+			);
+			path = KeepAppAlive;
 			sourceTree = "<group>";
 		};
 		5B5BD8EF259C2FDE00BAD67D /* Log */ = {
@@ -267,6 +412,63 @@
 				5B7A55FD25B6B36A007C4119 /* HLLogViewController.m */,
 			);
 			name = Log;
+			sourceTree = "<group>";
+		};
+		5B6A0FCA25D2395D00510294 /* QRcode */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A0FCB25D2398900510294 /* HLQRCodeViewController.h */,
+				5B6A0FCC25D2398900510294 /* HLQRCodeViewController.m */,
+				5B6A0FCD25D2398900510294 /* HLQRCodeViewController.xib */,
+			);
+			path = QRcode;
+			sourceTree = "<group>";
+		};
+		5B7ABE5225E63BE70016AE61 /* StatusBarUI */ = {
+			isa = PBXGroup;
+			children = (
+				5B7ABE5325E63C000016AE61 /* HLStatusBarViewController.h */,
+				5B7ABE5425E63C000016AE61 /* HLStatusBarViewController.m */,
+			);
+			path = StatusBarUI;
+			sourceTree = "<group>";
+		};
+		5B96259B25CA787500FD8459 /* generate_picture */ = {
+			isa = PBXGroup;
+			children = (
+				5B96259C25CA790F00FD8459 /* HLGeneratePicViewController.h */,
+				5B96259D25CA790F00FD8459 /* HLGeneratePicViewController.m */,
+			);
+			path = generate_picture;
+			sourceTree = "<group>";
+		};
+		5BD116E625BFA9DC00D64059 /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				5BD116E725BFA9F800D64059 /* HLPayViewController.h */,
+				5BD116E825BFA9F800D64059 /* HLPayViewController.m */,
+				5BD116F025BFC74E00D64059 /* HLPaymentManger.h */,
+				5BD116F125BFC74E00D64059 /* HLPaymentManger.m */,
+			);
+			name = ApplePay;
+			sourceTree = "<group>";
+		};
+		5BD116F325C0033700D64059 /* Native和JS交互 */ = {
+			isa = PBXGroup;
+			children = (
+				5BD116F425C0035F00D64059 /* HLJSViewController.h */,
+				5BD116F525C0035F00D64059 /* HLJSViewController.m */,
+			);
+			path = "Native和JS交互";
+			sourceTree = "<group>";
+		};
+		5BE92F7E25E8C2BF007FE46B /* Webkit */ = {
+			isa = PBXGroup;
+			children = (
+				5BE92F7F25E8C2D4007FE46B /* HLWebKitViewController.h */,
+				5BE92F8025E8C2D4007FE46B /* HLWebKitViewController.m */,
+			);
+			path = Webkit;
 			sourceTree = "<group>";
 		};
 		5BFBB31E25A5507900563635 /* PushEffect */ = {
@@ -388,6 +590,8 @@
 		70266CAC1D683879002163B7 /* DemoCollections */ = {
 			isa = PBXGroup;
 			children = (
+				5B5BD0B025C8EA7600C3023A /* DemoCollectionsDebug.entitlements */,
+				5BD116ED25BFB9A800D64059 /* DemoCollections.entitlements */,
 				707D83771D6ECC1C00488B86 /* Models */,
 				70266CEB1D684FE7002163B7 /* Effects */,
 				70266CE71D684DD7002163B7 /* tools */,
@@ -403,6 +607,8 @@
 		70266CAD1D683879002163B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B3A9C1D25FA0F56003F305B /* DemoCollections-Bridging-Header.h */,
+				5B47B07725F3875100D7AD70 /* 1004523.mp3 */,
 				707FF6741D6ED55D000C4D1A /* reda.html */,
 				702229A31DB1BD28000BD135 /* window.html */,
 				707FF6761D6ED9D0000C4D1A /* gesturePassword.html */,
@@ -459,6 +665,17 @@
 		70266CEB1D684FE7002163B7 /* Effects */ = {
 			isa = PBXGroup;
 			children = (
+				5B3A9C1925FA09B3003F305B /* RAC */,
+				5B3A9C1525FA00A3003F305B /* Runtime */,
+				5B47B07325F3780F00D7AD70 /* KeepAppAlive */,
+				5BE92F7E25E8C2BF007FE46B /* Webkit */,
+				5B7ABE5225E63BE70016AE61 /* StatusBarUI */,
+				5B6A0FCA25D2395D00510294 /* QRcode */,
+				5B17CD3025D0DD60009893FA /* Socket */,
+				5B3E3B0825CAA6AF009B5E5C /* API_Attribute */,
+				5B96259B25CA787500FD8459 /* generate_picture */,
+				5BD116F325C0033700D64059 /* Native和JS交互 */,
+				5BD116E625BFA9DC00D64059 /* ApplePay */,
 				5BFBB31F25A5509200563635 /* PresentEffect */,
 				5BFBB31E25A5507900563635 /* PushEffect */,
 				5B5BD8EF259C2FDE00BAD67D /* Log */,
@@ -616,6 +833,10 @@
 				709B08A61DC62EC000D64DB7 /* HLDashViewController.m */,
 				70168BEA1DC77AC800A0B2C6 /* HLPolygonViewController.h */,
 				70168BEB1DC77AC800A0B2C6 /* HLPolygonViewController.m */,
+				5B52458F261D4552004F97A3 /* HLQuartzTextViewController.h */,
+				5B524590261D4552004F97A3 /* HLQuartzTextViewController.m */,
+				5B524598261EE30D004F97A3 /* HLScaleRuleViewController.h */,
+				5B524599261EE30D004F97A3 /* HLScaleRuleViewController.m */,
 				709B08971DC5ADB000D64DB7 /* HLQuartzTableViewController.storyboard */,
 			);
 			name = Controller;
@@ -632,6 +853,10 @@
 				70168BE81DC77A4A00A0B2C6 /* HLPolygonAndRectView.m */,
 				70121E081DCA1EBE000AD1F1 /* HLContextOperationView.h */,
 				70121E091DCA1EBE000AD1F1 /* HLContextOperationView.m */,
+				5B524592261D4596004F97A3 /* HLQuartzTextView.h */,
+				5B524593261D4596004F97A3 /* HLQuartzTextView.m */,
+				5B524595261EE2FE004F97A3 /* HLScaleRuleView.h */,
+				5B524596261EE2FE004F97A3 /* HLScaleRuleView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -719,6 +944,8 @@
 				70266CA61D683879002163B7 /* Sources */,
 				70266CA71D683879002163B7 /* Frameworks */,
 				70266CA81D683879002163B7 /* Resources */,
+				5B5BC06325B9137500454162 /* ShellScript */,
+				646BDF8430A76DDE85F38D58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -772,12 +999,16 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HL;
+				KnownAssetTags = (
+					img,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = helong;
 				TargetAttributes = {
 					70266CA91D683879002163B7 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 7D9PWHA8VU;
+						DevelopmentTeam = 9BSXHL553B;
+						LastSwiftMigration = 1170;
 					};
 					70266CC21D68387A002163B7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -817,9 +1048,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6A0FCF25D2398900510294 /* HLQRCodeViewController.xib in Resources */,
 				707FF6751D6ED55D000C4D1A /* reda.html in Resources */,
 				70266CBD1D683879002163B7 /* LaunchScreen.storyboard in Resources */,
 				70266CE31D68464D002163B7 /* tables.plist in Resources */,
+				5B47B07825F3875100D7AD70 /* 1004523.mp3 in Resources */,
 				707FF6771D6ED9D0000C4D1A /* gesturePassword.html in Resources */,
 				709B088B1DC5894600D64DB7 /* Simulator Screen Shot 2016年10月30日 上午9.49.45.png in Resources */,
 				70D74A881D81A012007A94D6 /* HLdycell.xib in Resources */,
@@ -865,6 +1098,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5B5BC06325B9137500454162 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		646BDF8430A76DDE85F38D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoCollections/Pods-DemoCollections-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/JKCategories/JKCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoCollections/Pods-DemoCollections-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -873,9 +1145,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				709B08A71DC62EC000D64DB7 /* HLDashViewController.m in Sources */,
+				5B524597261EE2FE004F97A3 /* HLScaleRuleView.m in Sources */,
 				70B2F3381D6DCD87004325AB /* HLGestureView.m in Sources */,
 				70D74A831D81884C007A94D6 /* HLDynamicCollectionViewCell.m in Sources */,
 				70266CF11D68504C002163B7 /* HLRedaController.m in Sources */,
+				5B52459A261EE30D004F97A3 /* HLScaleRuleViewController.m in Sources */,
+				5B7ABE5525E63C000016AE61 /* HLStatusBarViewController.m in Sources */,
+				5B3A9C1F25FA0F56003F305B /* HLLRac.swift in Sources */,
+				5BD116E925BFA9F800D64059 /* HLPayViewController.m in Sources */,
 				70266CB51D683879002163B7 /* ViewController.m in Sources */,
 				703397871DBB311E003525D9 /* HLMoveItemCollectionViewController.m in Sources */,
 				5BFBB32225A550C200563635 /* HLPresentEffectViewController.m in Sources */,
@@ -887,6 +1164,8 @@
 				703397921DBC606A003525D9 /* HLFlowLayoutViewController.m in Sources */,
 				70121E0A1DCA1EBE000AD1F1 /* HLContextOperationView.m in Sources */,
 				70D74A861D818F0D007A94D6 /* HLDynamicTableViewCell.m in Sources */,
+				5B96259E25CA790F00FD8459 /* HLGeneratePicViewController.m in Sources */,
+				5B84C1F725F71ED90096071F /* HLLocationManager.m in Sources */,
 				703397841DBB2F69003525D9 /* HLCollectionViewCollectionTableViewController.m in Sources */,
 				707D837A1D6ECC3700488B86 /* HLMainModel.m in Sources */,
 				7033978F1DBC5717003525D9 /* HLFlowLayout.m in Sources */,
@@ -901,31 +1180,49 @@
 				70FDF0901D9AAA030044F291 /* CarSectionModel.m in Sources */,
 				70FDF0881D9AA9E40044F291 /* HLAddressBookViewController.m in Sources */,
 				70FDF08F1D9AAA030044F291 /* CarModel.m in Sources */,
+				5B5245882612AFB8004F97A3 /* NSObject+HLTarget.m in Sources */,
+				5B47B07E25F60B3900D7AD70 /* HLLockStatus.m in Sources */,
 				703397981DBC9C25003525D9 /* HLPullDownFlowLayout.m in Sources */,
+				5BB55EE025F774D60069049C /* HLTemporary.m in Sources */,
 				7022299E1DB1AD4F000BD135 /* HLDrawTextView.m in Sources */,
 				70222A421DB3A1F8000BD135 /* HLAddContactLikeTableViewController.m in Sources */,
 				702229981DB1ACFA000BD135 /* HLHLDrawController.m in Sources */,
 				70348EAB1D72773700D3C3C5 /* HLDataBaseTool.m in Sources */,
 				70D74A801D818251007A94D6 /* HLCollectionTableViewController.m in Sources */,
+				5B524594261D4596004F97A3 /* HLQuartzTextView.m in Sources */,
 				709B088E1DC5959500D64DB7 /* HLConstrainView.m in Sources */,
 				70058DFA1D993E1000E10E45 /* HLLabel.m in Sources */,
+				5B17CD3625D0DD8D009893FA /* HLSocketViewController.m in Sources */,
 				70168BE91DC77A4A00A0B2C6 /* HLPolygonAndRectView.m in Sources */,
 				706B49591DAD251500B57965 /* HLEditingTableViewController.m in Sources */,
 				70058DF51D993D6E00E10E45 /* HLCustomLabelViewController.m in Sources */,
+				5B3A9C1C25FA09C1003F305B /* HLRACViewController.m in Sources */,
+				5B524591261D4552004F97A3 /* HLQuartzTextViewController.m in Sources */,
 				70348EA31D7184DC00D3C3C5 /* HLEyeView.m in Sources */,
 				5BFBB32825A551A800563635 /* HLPresentTestViewController.m in Sources */,
 				70E4D6C91D6897ED00A1C9BB /* UIView+HLFrame.m in Sources */,
+				5B47B07B25F5BB2500D7AD70 /* HLAudioManager.m in Sources */,
 				709B08891DC5870C00D64DB7 /* HLPresentedViewController.m in Sources */,
 				5BFBB32525A550D900563635 /* HLPushEffectViewController.m in Sources */,
 				70348EAF1D72775700D3C3C5 /* HLStudentModel.m in Sources */,
+				5BD116F625C0035F00D64059 /* HLJSViewController.m in Sources */,
 				709B08A11DC5BF0D00D64DB7 /* HLQuartzLineView.m in Sources */,
 				709B08931DC5AC4200D64DB7 /* HLQuartzTableViewController.m in Sources */,
+				5B3E3B0B25CAA6C5009B5E5C /* HLAPIAttributeViewController.m in Sources */,
+				5BD116F225BFC74E00D64059 /* HLPaymentManger.m in Sources */,
 				70266CEA1D684E0E002163B7 /* UIColor+HLRandomColor.m in Sources */,
 				5B7A55FE25B6B36A007C4119 /* HLLogViewController.m in Sources */,
+				5B3A9C1825FA00BB003F305B /* HLRuntimeViewController.m in Sources */,
+				5BE92F8125E8C2D4007FE46B /* HLWebKitViewController.m in Sources */,
+				5B6A0FCE25D2398900510294 /* HLQRCodeViewController.m in Sources */,
+				5B84C1F125F61A050096071F /* HLResidentThread.m in Sources */,
 				7033979E1DBCB306003525D9 /* HLCircleLayout.m in Sources */,
 				70348EA71D7276DB00D3C3C5 /* HLDataViewController.m in Sources */,
 				70168BEC1DC77AC800A0B2C6 /* HLPolygonViewController.m in Sources */,
 				70266CAF1D683879002163B7 /* main.m in Sources */,
+				5B47B07625F3783900D7AD70 /* HLKeepAliveViewController.m in Sources */,
+				5B52458E2612BEA3004F97A3 /* UIViewController+HLExchange.m in Sources */,
+				5B52458B2612B491004F97A3 /* HLFowardTarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,7 +1306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1048,7 +1345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1062,14 +1359,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 7D9PWHA8VU;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DemoCollections/DemoCollectionsDebug.entitlements;
+				DEVELOPMENT_TEAM = 9BSXHL553B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.helong.DemoCollections;
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = img;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imango.sd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoCollections/DemoCollections-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1079,20 +1383,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 7D9PWHA8VU;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DemoCollections/DemoCollections.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DemoCollections/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoCollections/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.helong.DemoCollections;
+				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = img;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imango.sd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoCollections/DemoCollections-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		70266CDB1D68387A002163B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DemoCollectionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1105,6 +1418,7 @@
 		70266CDC1D68387A002163B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DemoCollectionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1117,6 +1431,7 @@
 		70266CDE1D68387A002163B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DemoCollectionsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.helong.DemoCollectionsUITests;
@@ -1128,6 +1443,7 @@
 		70266CDF1D68387A002163B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DemoCollectionsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.helong.DemoCollectionsUITests;

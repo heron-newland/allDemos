@@ -34,3 +34,7 @@
 #endif
 
 #endif /* PrefixHeader_pch */
+
+
+/// 是否开启app保活策略, 默认不开启
+#define kShouldKeepAliveWorks 0

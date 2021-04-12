@@ -31,6 +31,19 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>需要使用定为获取位置信息</string>
+	<key>NSLocationUsageDescription</key>
+	<string>需要使用定为获取位置信息</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>需要使用定为获取位置信息</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>需要使用相册保存图片</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>location</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -40,6 +53,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
